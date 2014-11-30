@@ -13,7 +13,7 @@ I am a Cardiac Electrophysiologist_, a physician dealing with abnormally fast or
    :alt: Me	   
    :align: left
 
-{% img  left /images/me_with_camera.jpg 250 250 %} I am self taught programmer and love writing stuff_ with Python. When possible, I love to trek with friends and especially look forward to an annual trek in the Himalayas. I do a bit of photography with my Canon EOS 550 and am thrilled when I get some good shots_. I am club level chess player, mostly playing 1 or 3 minute blitz games online now-a-days. I am an open source enthusiast, use linux on my computers, android on my phone, and open source software as much as possible. I am an avid reader and you can see the books I read here_.
+I am self taught programmer and love writing stuff_ with Python. When possible, I love to trek with friends and especially look forward to an annual trek in the Himalayas. I do a bit of photography with my Canon EOS 550 and am thrilled when I get some good shots_. I am club level chess player, mostly playing 1 or 3 minute blitz games online now-a-days. I am an open source enthusiast, use linux on all my computers, android on my phone, and open source software as much as possible. I am an avid reader and you can see the books I read here_.
 
 .. _Electrophysiologist: http://en.wikipedia.org/wiki/Cardiac_electrophysiology
 .. _JIPMER: http://wwww.jipmer.edu.in
