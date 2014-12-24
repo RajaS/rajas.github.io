@@ -1,16 +1,47 @@
 <!DOCTYPE html>
-<html><body>
-<p>{#  -*- coding: utf-8 -*- #}
-{% import &#8216;base_helper.tmpl&#8217; as base with context %}
-{% import &#8216;annotation_helper.tmpl&#8217; as notes with context %}
-{{ set_locale(lang) }}
-{{ base.html_headstart() }}
-{% block extra_head %}
-{#  Leave this block alone. #}
-{% endblock %}
-{{ template_hooks[&#8216;extra_head&#8217;]()&nbsp;}}
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A month with Sublime Text | Reach Beyond Grasp</title>
 
-</p>
+    
+            <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+
+    
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+
+      <link rel="canonical" href="http://rajaselvaraj.co.in/posts/a-month-with-sublime-text.html">
+
+            <link rel="icon" href="favicon.ico" sizes="16x16">
+
+
+
+    
+        <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+
+    
+
+
+    
+
+    <meta name="author" content="Raja Selvaraj">
+    
+        <meta name="og:title" content="A month with Sublime Text">
+        <meta name="og:url" content="http://rajaselvaraj.co.in/posts/a-month-with-sublime-text.html">
+            <meta name="og:description" content="I don't write code for a living, still the amount of time I spend doing it makes me value a good editor. Like any decent programmer I am picky about what I use and biased towards what I prefer. Over t">
+        <meta name="og:site_name" content="Reach Beyond Grasp">
+        <meta name="og:type" content="article">
+
+    
+
+    
+
+
+
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
 <!-- Menubar -->
 
@@ -24,36 +55,55 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="%7B%7B%20abs_link('/')%20%7D%7D">
-            {% if logo_url %}
-                <img src="%7B%7B%20logo_url%20%7D%7D" alt="{{ blog_title }}" id="logo">
-            {% endif %}
+            <a class="navbar-brand" href="http://rajaselvaraj.co.in/">
+                <img src="small.jpg" alt="Reach Beyond Grasp" id="logo">
 
-            {% if show_blog_title %}
-                <span id="blog-title">{{ blog_title }}</span>
-            {% endif %}
             </a>
         </div>
 <!-- /.navbar-header -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                {{ base.html_navigation_links() }}
-                {{ template_hooks[&#8216;menu&#8217;]() }}
-            </ul>
-            {% if search_form %}
-                {{ search_form }}
-            {% endif %}
+                
+                <li>
+<a href="../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../about-me.html">About&nbsp;Me</a>
+            </li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Photography<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                    <li>
+<a href="../galleries/Landscapes">Landscapes</a>
+                    </li>
+<li>
+<a href="../galleries/Birds">Birds</a>
+            </li>
+</ul>
+                </li>
+<li>
+<a href="../categories/index.html">Tags</a>
+                </li>
+<li>
+<a href="../rss.xml">RSS&nbsp;feed</a>
+
+                
+            </li>
+</ul>
+                
+<!-- Custom search with google-->
+<form id="search" action="//www.google.com/search" method="get" class="navbar-form pull-left">
+<input type="hidden" name="q" value="site:http://rajaselvaraj.co.in/">
+<input type="text" name="q" maxlength="255" results="0" placeholder="Search">
+</form>
+<!-- End of custom search -->
+
 
             <ul class="nav navbar-nav navbar-right">
-                {% block belowtitle %}
-                {% if translations|length &gt; 1 %}
-                    <li>{{ base.html_translations()&nbsp;}}</li>
-                {% endif %}
-                {% endblock %}
-                {% if show_sourcelink %}
-                    {% block sourcelink %}{% endblock %}
-                {% endif %}
-                {{ template_hooks[&#8216;menu_alt&#8217;]() }}
+                
+                
+                    
+                
             </ul>
         </div>
 <!-- /.navbar-collapse -->
@@ -63,31 +113,134 @@
 
 <!-- End of Menubar -->
 
-<div class="container">
+<div class="container" id="content">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
-            {{ template_hooks[&#8216;page_header&#8217;]() }}
-            {% block content %}{% endblock %}
+            
+            
+
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
+    
+    <header>
+        
+    <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">A month with Sublime&nbsp;Text</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Raja&nbsp;Selvaraj</span></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2012-07-31T17:45:04+05:30" itemprop="datePublished" title="Publication date">31-07-2012</time></a></p>
+                <p class="commentline">
+        
+    <a href="a-month-with-sublime-text.html#disqus_thread" data-disqus-identifier="cache/posts/a-month-with-sublime-text.html">Comments</a>
+
+
+            
+        </p>
+<p class="sourceline"><a href="a-month-with-sublime-text.rst" id="sourcelink">Source</a></p>
+
+        </div>
+        
+
+    </header>
+
+    <div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>I don&#8217;t write code for a living, still the amount of time I spend doing it makes me value a good editor. Like any decent programmer I am picky about what I use and biased towards what I prefer. Over the years, I have tried out a few different editors, notably gedit, geany, SPE, Komodo edit, Vim and Emacs. With patience and persistence, I think anyone will ultimately find the answer in Vi(m) or Emacs. For me it was Emacs that clicked and since the last 4 years or so, I have not really felt the need to try out another editor. With all the noise about Sublime Text, I thought it was time to give it a whirl, especially with the release of version 2, especially since some of the things in my current emacs setup were broken after the upgrade to Emacs 24. I used Sublime Text for about a month and these are some of my impressions&nbsp;-</p>
+<!-- TEASER_END -->
+<img alt="Sublime Text 2" class="align-center" src="../img/ST_screenshot.png" style="width: 600px;">
+<ol class="arabic simple">
+<li>ST is blazing fast. With about 10 open files, it still restarts virtually instantaneously, while Emacs, even with my core i7 processor and SSD, takes a few seconds to start up. Practically though, this is not of much importance, since with my usual workflow, Emacs is always open and I wait for it to start up only once in a month or so when I reboot after a kernel&nbsp;upgrade.</li>
+<li>It comes with batteries included! With the default install, it is nice to see most things work automatically. In python mode for example, indentation, autocompletion, code folding all work out of the box. Once the package manager is installed, it is very easy to find and install additional packages. Although Emacs diehards usually discount the usefulness of folding, I found it quite useful and it is absolutely effortless in&nbsp;ST.</li>
+<li>The enthusiasm of the author and the community for new developments in ST is infectious and even if the intermittent popups reminding you that is a trial are a little irritating, it is an incredibly good decision to allow a free trial without time limit to attract new&nbsp;users.</li>
+<li>Coming from Emacs, the thing that I had the biggest difficulty in adjusting to was with creating a new file. The process in Emacs is a good example of the smooth workflow that has evolved with time. Creating a new file is the same as opening a file. If the parent directory does not exist, Emacs still creates the file and opens the buffer with a warning that you have to create the parent directory. And on M-x make-directory, the path for the parent directory is automatically filled in, so all you have to do is press enter. Compared to this ST&#8217;s traditional method of &#8216;Create file&#8217; followed by &#8216;Save&#8217; seems&nbsp;cumbersome.</li>
+<li>I could not get syntax highlighting to work with Markdown mode in ST. Other people have reported this and suggest that this is a problem with certain themes, but there was no change for me with different&nbsp;themes.</li>
+<li>While Emacs can use a file dialog, the default method to display files for opening or saving is in the minibuffer. Again, having got used to this, dialogs seem so much out of place, but I could not find any plugin to get ido like behaviour for opening files in&nbsp;ST.</li>
+<li>Macros are a very powerful feature of Emacs and ST has them too. Or is supposed to have them too. While I did not have problems with a few simple macros, most of those I tried did not work as expected. I did not spend much time trying to debug, but it is likely that the keybindings introduced by Sublemacspro may have been responsible. But again, with Emacs, macros have never gone wrong, no matter what keybindings have been&nbsp;changed.</li>
+<li>Self documentation is another powerful feature of Emacs. For example, &#8216;C-h k&#8217; for &#8216;describe key&#8217; will bring up the function currently bound to that key. I sorely missed something like that in ST. Key bindings in ST are defined in multiple places, so again it was not easy to find the current binding for a key combination. This also makes it more difficult customizing ST compared to Emacs where you can put all your customizations in one file or a few files as you&nbsp;wish.</li>
+<li>The killer feature that forced me to return to Emacs is org-mode. I am not a power user of org-mode, far from it. But still I use it to store a few notes and I found my self opening Emacs just to use my org files. There seems to be some preliminary effort to make an org-mode clone in ST, but there is nothing functional&nbsp;yet.</li>
+</ol>
+<p>All in all, it was a good experience and it was with somewhat mixed feelings that I returned to Emacs. I have subsequently tweaked my Emacs to get some of the features I missed after leaving ST. My general impression is that ST seems to principally cater for those coming from Textmate. For Vim users, it might again be a reasonable switch as it seems to have good support of Vi keybindings. Emacs bindings are provided by a package and are still not perfect. For now, I am comfortably back in Emacs, but might try ST again after some time. A month has been too short a time to evaluate an editor and I have not tried any serious&nbsp;customization.</p>
+</div>
+    </div>
+    <aside class="postpromonav">
+    <nav>
+    
+        <ul itemprop="keywords" class="tags">
+           <li><a class="tag p-category" href="../categories/code.html" rel="tag">code</a></li>
+        </ul>
+
+    
+        <ul class="pager">
+            <li class="previous">
+                <a href="install-mendeley-plugin-for-libreoffice.html" rel="prev" title="Install Mendeley plugin for Libreoffice">Previous&nbsp;post</a>
+            </li>
+            <li class="next">
+                <a href="kurangani-to-top-station.html" rel="next" title="Kurangani to Top Station">Next&nbsp;post</a>
+            </li>
+        </ul>
+
+    </nav>
+    </aside>
+        <section class="comments">
+        <h2>Comments</h2>
+        
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="rajaselvaraj",
+            disqus_url="http://rajaselvaraj.co.in/posts/a-month-with-sublime-text.html",
+        disqus_title="A month with Sublime Text",
+        disqus_identifier="cache/posts/a-month-with-sublime-text.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="//disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section>
+    
+
+</article>
+
+        
+       <script>var disqus_shortname="rajaselvaraj";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+
         </div>
         <!--End of body content-->
 
         <footer>
-            {{ content_footer }}
-            {{ template_hooks[&#8216;page_footer&#8217;]() }}
+            © 2014         <a href="mailto:rajajs@gmail.com">Raja Selvaraj</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+ <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ar/">
+ <img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:6px;" src="http://i.creativecommons.org/l/by-nc-sa/2.5/ar/88x31.png"></a>
+            
         </footer>
     </div>
 </div>
 
-{{ base.late_load_js() }}
-    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
-    {% block extra_js %}{% endblock %}
-    {% if annotations and post and not post.meta(&#8216;noannotations&#8217;) %}
-        {{ notes.code() }}
-    {% elif not annotations and post and post.meta(&#8216;annotations&#8217;) %}
-        {{ notes.code() }}
-    {% endif %}
-{{ body_end }}
-{{ template_hooks[&#8216;body_end&#8217;]() }}
 
-</body></html>
+            <script src="../assets/js/all-nocdn.js"></script>
+    
+
+    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <!-- fancy dates -->
+    <script>
+    moment.locale("");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script>
+    <!-- end fancy dates -->
+    
+
+
+
+</body>
+</html>
