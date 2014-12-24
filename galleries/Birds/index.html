@@ -1,43 +1,16 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Birds | Reach Beyond Grasp</title>
+<html><body>
+<p>{#  -*- coding: utf-8 -*- #}
+{% import &#8216;base_helper.tmpl&#8217; as base with context %}
+{% import &#8216;annotation_helper.tmpl&#8217; as notes with context %}
+{{ set_locale(lang) }}
+{{ base.html_headstart() }}
+{% block extra_head %}
+{#  Leave this block alone. #}
+{% endblock %}
+{{ template_hooks[&#8216;extra_head&#8217;]()&nbsp;}}
 
-    
-            <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-
-    
-            <link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
-
-      <link rel="canonical" href="http://rajaselvaraj.co.in/galleries/Birds/index.html">
-
-            <link rel="icon" href="favicon.ico" sizes="16x16">
-
-
-
-    
-        <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]-->
-
-    
-
-
-
-
-<style type="text/css">
-    .image-block {
-        display: inline-block;
-    }
-    .flowr_row {
-        width: 100%;
-    }
-    </style>
-
-
-</head>
-<body>
-<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+</p>
 
 <!-- Menubar -->
 
@@ -51,55 +24,36 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://rajaselvaraj.co.in/">
-                <img src="small.jpg" alt="Reach Beyond Grasp" id="logo">
+            <a class="navbar-brand" href="%7B%7B%20abs_link('/')%20%7D%7D">
+            {% if logo_url %}
+                <img src="%7B%7B%20logo_url%20%7D%7D" alt="{{ blog_title }}" id="logo">
+            {% endif %}
 
+            {% if show_blog_title %}
+                <span id="blog-title">{{ blog_title }}</span>
+            {% endif %}
             </a>
         </div>
 <!-- /.navbar-header -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                
-                <li>
-<a href="../../archive.html">Archive</a>
-                </li>
-<li>
-<a href="../../about-me.html">About&nbsp;Me</a>
-            </li>
-<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown">Photography<b class="caret"></b></a>
-            <ul class="dropdown-menu">
-                    <li>
-<a href="../Landscapes">Landscapes</a>
-                    </li>
-<li>
-<a href="../Birds">Birds</a>
-            </li>
-</ul>
-                </li>
-<li>
-<a href="../../categories/index.html">Tags</a>
-                </li>
-<li>
-<a href="../../rss.xml">RSS&nbsp;feed</a>
-
-                
-            </li>
-</ul>
-                
-<!-- Custom search with google-->
-<form id="search" action="//www.google.com/search" method="get" class="navbar-form pull-left">
-<input type="hidden" name="q" value="site:http://rajaselvaraj.co.in/">
-<input type="text" name="q" maxlength="255" results="0" placeholder="Search">
-</form>
-<!-- End of custom search -->
-
+                {{ base.html_navigation_links() }}
+                {{ template_hooks[&#8216;menu&#8217;]() }}
+            </ul>
+            {% if search_form %}
+                {{ search_form }}
+            {% endif %}
 
             <ul class="nav navbar-nav navbar-right">
-                
-                
-                    
-                
+                {% block belowtitle %}
+                {% if translations|length &gt; 1 %}
+                    <li>{{ base.html_translations()&nbsp;}}</li>
+                {% endif %}
+                {% endblock %}
+                {% if show_sourcelink %}
+                    {% block sourcelink %}{% endblock %}
+                {% endif %}
+                {{ template_hooks[&#8216;menu_alt&#8217;]() }}
             </ul>
         </div>
 <!-- /.navbar-collapse -->
@@ -109,97 +63,31 @@
 
 <!-- End of Menubar -->
 
-<div class="container" id="content">
+<div class="container">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
-            
-            
-    
-<nav class="breadcrumbs">
-<ul class="breadcrumb">
-        <li><a href="../">galleries</a></li>
-        <li><a href="#">Birds</a></li>
-</ul>
-</nav>
-
-    <h1>Birds</h1>
-
-<div id="gallery_container"></div>
-<noscript>
-<ul class="thumbnails">
-        <li>
-<a href="pair_of_pelicans.jpg" class="thumbnail image-reference" title="Pair of pelicans">
-            <img src="pair_of_pelicans.thumbnail.jpg" alt="Pair of pelicans"></a>
-</li>
-</ul>
-</noscript>
-
+            {{ template_hooks[&#8216;page_header&#8217;]() }}
+            {% block content %}{% endblock %}
         </div>
         <!--End of body content-->
 
         <footer>
-            © 2014         <a href="mailto:rajajs@gmail.com">Raja Selvaraj</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ar/">
- <img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:6px;" src="http://i.creativecommons.org/l/by-nc-sa/2.5/ar/88x31.png"></a>
-            
+            {{ content_footer }}
+            {{ template_hooks[&#8216;page_footer&#8217;]() }}
         </footer>
     </div>
 </div>
 
-
-            <script src="../../assets/js/all-nocdn.js"></script>
-    
-
+{{ base.late_load_js() }}
     <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
-    <!-- fancy dates -->
-    <script>
-    moment.locale("");
-    fancydates(0, "YYYY-MM-DD HH:mm");
-    </script>
-    <!-- end fancy dates -->
-    
-<script src="../../assets/js/flowr.plugin.js"></script>
-<script>
-jsonContent = [{"url": "pair_of_pelicans.jpg", "title": "Pair of pelicans", "size": {"h": 122, "w": 180}, "url_thumb": "pair_of_pelicans.thumbnail.jpg"}];
-$("#gallery_container").flowr({
-        data : jsonContent,
-        height : 180*.6,
-        padding: 5,
-        rows: -1,
-        render : function(params) {
-            // Just return a div, string or a dom object, anything works fine
-            img = $("<img />").attr({
-                'src': params.itemData.url_thumb,
-                'width' : params.width,
-                'height' : params.height
-            }).css('max-width', '100%');
-            link = $( "<a></a>").attr({
-                'href': params.itemData.url,
-                'class': 'image-reference'
-            });
-            div = $("<div />").addClass('image-block').attr({
-                'title': params.itemData.title,
-                'data-toggle': "tooltip",
-            });
-            link.append(img);
-            div.append(link);
-            div.hover(div.tooltip());
-            return div;
-        },
-        itemWidth : function(data) { return data.size.w; },
-        itemHeight : function(data) { return data.size.h; },
-        complete : function(params) {
-            if( jsonContent.length > params.renderedItems ) {
-                nextRenderList = jsonContent.slice( params.renderedItems );
-            }
-        }
-    });
-$("a.image-reference").colorbox({rel:"gal", maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
-</script>
+    {% block extra_js %}{% endblock %}
+    {% if annotations and post and not post.meta(&#8216;noannotations&#8217;) %}
+        {{ notes.code() }}
+    {% elif not annotations and post and post.meta(&#8216;annotations&#8217;) %}
+        {{ notes.code() }}
+    {% endif %}
+{{ body_end }}
+{{ template_hooks[&#8216;body_end&#8217;]() }}
 
-
-
-
-</body>
-</html>
+</body></html>
