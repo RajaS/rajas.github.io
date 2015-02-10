@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Reach Beyond Grasp</title><link href="http://rajaselvaraj.co.in/" rel="alternate"></link><link href="http://rajaselvaraj.co.in/feeds/code.atom.xml" rel="self"></link><id>http://rajaselvaraj.co.in/</id><updated>2013-06-15T00:00:00+05:30</updated><entry><title>Using wfdbtools</title><link href="http://rajaselvaraj.co.in/using-wfdbtools.html" rel="alternate"></link><updated>2013-06-15T00:00:00+05:30</updated><author><name>Raja Selvaraj</name></author><id>tag:rajaselvaraj.co.in,2013-06-15:using-wfdbtools.html</id><summary type="html">&lt;p&gt;&lt;a href="https://github.com/RajaS/ecgtk/blob/master/ecgtk/wfdbtools.py"&gt;wfdbtools&lt;/a&gt; is a pure python module for accessing and using the waveform data in &lt;a href="http://www.physionet.org/physiobank/"&gt;Physiobank&lt;/a&gt;. Provides rdsamp and rdann which are the python equivalents of the wfdb applications of similar names. A deliberate attempt is made to try to keep names and usage similar to the original wfdb applications for simplicity of&amp;nbsp;use.&lt;/p&gt;
+&lt;p&gt;The only dependency that will need to be installed is numpy. However, to use the function plot_data, which is an utility function for interactive use, you need to have matplotlib also&amp;nbsp;installed.&lt;/p&gt;
+&lt;p&gt;Example&amp;nbsp;Usage:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;wfdbtools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;rdsamp&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;rdann&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;plot_data&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pprint&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;pprint&lt;/span&gt;
+
+&lt;span class="c"&gt;# Record is a format 212 record from physiobank.&lt;/span&gt;
+&lt;span class="c"&gt;# Note that name of record does not include extension.&lt;/span&gt;
+&lt;span class="n"&gt;record&lt;/span&gt;  &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;samples/format212/100&amp;#39;&lt;/span&gt;
+
+&lt;span class="c"&gt;# Read in the data from 0 to 10 seconds&lt;/span&gt;
+&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;info&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;rdsamp&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;record&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c"&gt;# returned data is an array. The columns are time(samples),&lt;/span&gt;
+&lt;span class="c"&gt;# time(seconds), signal1, signal2&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3600&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c"&gt;# info is a dictionary containing header information&lt;/span&gt;
+&lt;span class="n"&gt;pprint&lt;/span&gt; &lt;span class="n"&gt;info&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;first_values&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;995&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1011&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+&lt;span class="s"&gt;&amp;#39;gains&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+&lt;span class="s"&gt;&amp;#39;samp_count&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;650000&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="s"&gt;&amp;#39;samp_freq&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;360&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="s"&gt;&amp;#39;signal_names&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;MLII&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;V5&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+&lt;span class="s"&gt;&amp;#39;zero_values&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1024&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1024&lt;/span&gt;&lt;span class="p"&gt;]}&lt;/span&gt;
+
+&lt;span class="c"&gt;# And now read the annotation&lt;/span&gt;
+&lt;span class="n"&gt;ann&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;rdann&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;record&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;atr&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c"&gt;# ann has 3 columns - sample number, time (sec) and annotation code&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ann&lt;/span&gt;&lt;span class="p"&gt;[:&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,:])&lt;/span&gt;
+&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([[&lt;/span&gt;  &lt;span class="mf"&gt;18.&lt;/span&gt;   &lt;span class="p"&gt;,&lt;/span&gt;    &lt;span class="mf"&gt;0.05&lt;/span&gt; &lt;span class="p"&gt;,&lt;/span&gt;   &lt;span class="mf"&gt;28.&lt;/span&gt;   &lt;span class="p"&gt;],&lt;/span&gt;
+           &lt;span class="p"&gt;[&lt;/span&gt;  &lt;span class="mf"&gt;77.&lt;/span&gt;   &lt;span class="p"&gt;,&lt;/span&gt;    &lt;span class="mf"&gt;0.214&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;    &lt;span class="mf"&gt;1.&lt;/span&gt;   &lt;span class="p"&gt;],&lt;/span&gt;
+       &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="mf"&gt;370.&lt;/span&gt;   &lt;span class="p"&gt;,&lt;/span&gt;    &lt;span class="mf"&gt;1.028&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;    &lt;span class="mf"&gt;1.&lt;/span&gt;   &lt;span class="p"&gt;],&lt;/span&gt;
+           &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="mf"&gt;662.&lt;/span&gt;   &lt;span class="p"&gt;,&lt;/span&gt;    &lt;span class="mf"&gt;1.839&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;    &lt;span class="mf"&gt;1.&lt;/span&gt;   &lt;span class="p"&gt;]])&lt;/span&gt;
+
+
+&lt;span class="c"&gt;# Plot the data and the mark the annotations&lt;/span&gt;
+&lt;span class="n"&gt;plot_data&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;info&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ann&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img class='inset center' src='/images/wfdb_plot.png' title='Plot' width='600px' /&gt;&lt;/p&gt;</summary><category term="python"></category><category term="linux"></category><category term="ecg"></category></entry><entry><title>Hotkey to toggle touchpad on Thinkpad x220</title><link href="http://rajaselvaraj.co.in/hotkey-to-toggle-touchpad-on-thinkpad-x220.html" rel="alternate"></link><updated>2012-05-31T00:00:00+05:30</updated><author><name>Raja Selvaraj</name></author><id>tag:rajaselvaraj.co.in,2012-05-31:hotkey-to-toggle-touchpad-on-thinkpad-x220.html</id><summary type="html">&lt;p&gt;My thinkpad x220 is my third thinkpad and the first one with a touchpad. While I find it useful specifically for scrolling documents and for zooming in and out for images, it can also come in the way the rest of the time hen I am primarily using the keyboard and trackpoint. So I wanted to be able to toggle the touchpad on and off using a key.
+&lt;!-- more --&gt;
+xinput gave me the following output, so I know the id for my touchpad is&amp;nbsp;11.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;⎡ Virtual core pointer                      id=2    [master pointer  (3)]
+⎜   ↳ Virtual core XTEST pointer                id=4    [slave  pointer  (2)]
+⎜   ↳ TPPS/2 IBM TrackPoint                     id=13   [slave  pointer  (2)]
+⎜   ↳ SynPS/2 Synaptics TouchPad                id=11   [slave  pointer  (2)]
+⎣ Virtual core keyboard                     id=3    [master keyboard (2)]
+    ↳ Virtual core XTEST keyboard               id=5    [slave  keyboard (3)]
+    ↳ Power Button                              id=6    [slave  keyboard (3)]
+    ↳ Video Bus                                 id=7    [slave  keyboard (3)]
+    ↳ Sleep Button                              id=8    [slave  keyboard (3)]
+    ↳ Integrated Camera                         id=9    [slave  keyboard (3)]
+    ↳ AT Translated Set 2 keyboard              id=10   [slave  keyboard (3)]
+    ↳ ThinkPad Extra Buttons                    id=12   [slave  keyboard (3)]
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then starting from &lt;a href="https://help.ubuntu.com/community/SynapticsTouchpad/ShortcutKey"&gt;here&lt;/a&gt;, I wrote the following simple&amp;nbsp;script.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="x"&gt; &lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="x"&gt;!/bin/sh&lt;/span&gt;
+
+&lt;span class="x"&gt; &lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="x"&gt; I know my trackpad device id is 11&lt;/span&gt;
+&lt;span class="x"&gt; tp_enabled=`xinput list-props 11 | grep &amp;quot;Device Enabled&amp;quot; | awk &amp;#39;&lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="x"&gt;print &lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="x"&gt;4}&amp;#39;`&lt;/span&gt;
+
+&lt;span class="x"&gt; &lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="x"&gt; if enabled, disable it&lt;/span&gt;
+&lt;span class="x"&gt; if [ &lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;tp_enabled&lt;/span&gt;&lt;span class="x"&gt; = 1 ]&lt;/span&gt;
+&lt;span class="x"&gt; then&lt;/span&gt;
+&lt;span class="x"&gt;     xinput set-prop 11 &amp;quot;Device Enabled&amp;quot; 0 &amp;amp;&amp;amp; notify-send &amp;#39;Trackpad disabled&amp;#39;&lt;/span&gt;
+
+&lt;span class="x"&gt; &lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="x"&gt; if disabled, enable it&lt;/span&gt;
+&lt;span class="x"&gt; elif [ &lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;tp_enabled&lt;/span&gt;&lt;span class="x"&gt; = 0 ]&lt;/span&gt;
+&lt;span class="x"&gt; then&lt;/span&gt;
+&lt;span class="x"&gt;     xinput set-prop 11 &amp;quot;Device Enabled&amp;quot; 1 &amp;amp;&amp;amp; notify-send &amp;#39;Trackpad enabled&amp;#39;&lt;/span&gt;
+
+&lt;span class="x"&gt; else&lt;/span&gt;
+&lt;span class="x"&gt; notify-send &amp;#39;Could not get trackpad status&amp;#39;&lt;/span&gt;
+&lt;span class="x"&gt; fi&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img class='inset right' src='/images/toggle_trackpad_screenshot.png' title='screenshot' width='600px' /&gt;&lt;/p&gt;
+&lt;p&gt;Depending on whether the touchpad is enabled or not (getting it from &amp;#8216;xinput list-props 11&amp;#8217;), the script accordingly turns it on or off, by using &amp;#8216;xinput set-prop&amp;#8217;. In addition a notification appears through notify-osd. I put this script in my path, made it executable and then bound it to F5 (System Settings -&amp;gt; Keyboard -&amp;gt; Shortcuts -&amp;gt; Custom shortcuts). It works perfectly, with the only issue being that the norification bubble stays for 10 seconds and although the man page for notify-send lists the argument &amp;#8212;expire-time, this does not work. This apparently is a long-standing bug/feature(?) and I didn&amp;#8217;t want to &lt;a href="http://askubuntu.com/questions/128474/how-to-customize-on-screen-notifications"&gt;go to some lengths&lt;/a&gt; at present to work around&amp;nbsp;this.&lt;/p&gt;</summary><category term="linux"></category><category term="thinkpad"></category></entry><entry><title>Textcontrol with smart autocompletion for wxpython</title><link href="http://rajaselvaraj.co.in/textcontrol-with-smart-autocompletion-for-wxpython.html" rel="alternate"></link><updated>2012-05-23T00:00:00+05:30</updated><author><name>Raja Selvaraj</name></author><id>tag:rajaselvaraj.co.in,2012-05-23:textcontrol-with-smart-autocompletion-for-wxpython.html</id><summary type="html">&lt;p&gt;For my own use I needed a text entry widget in wxpython that allows smart autocompletion from a list of choices. By smart autocompletion, I mean choices should be displayed in a dropdown box and text entry should narrow down to matching choices. Match should be configurable to beginning only or anywhere within the string. Starting off from &lt;a href="http://wiki.wxpython.org/TextCtrlAutoComplete"&gt;this&lt;/a&gt;, I wrote my own textcontrol widget with autocomplete. A list of choices can be passed to the widget and matches can be configured. Check it out on &lt;a href="https://github.com/RajaS/ACTextCtrl"&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class='inset left' src='/images/actextctrl_screenshot.png' title='Autocomplete in action' width='600px' /&gt;&lt;/p&gt;</summary><category term="python"></category><category term="wxpython"></category></entry></feed>
