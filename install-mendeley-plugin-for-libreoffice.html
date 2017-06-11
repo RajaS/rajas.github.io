@@ -13,6 +13,11 @@
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="http://rajaselvaraj.co.in/theme/css/style.css" media="screen">
         <link rel="stylesheet" type="text/css" href="http://rajaselvaraj.co.in/theme/css/solarizedlight.css" media="screen">
+
+	<!-- Masonry / fancybox -->
+
+	<link rel="stylesheet" href="http://rajaselvaraj.co.in/css/custom.css">
+	
         <link rel="shortcut icon" href="http://rajaselvaraj.co.in/theme/images/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="http://rajaselvaraj.co.in/theme/images/apple-touch-icon.png" />
         <link rel="apple-touch-icon" sizes="57x57" href="http://rajaselvaraj.co.in/theme/images/apple-touch-icon-57x57.png" />
@@ -46,7 +51,6 @@
                         <ul class="nav pull-right top-menu">
                             <!-- <li ><a href="http://rajaselvaraj.co.in">Home</a></li> -->
                             <li ><a href="http://rajaselvaraj.co.in/pages/about-me.html">About&nbsp;me</a></li>
-                            <li ><a href="http://rajaselvaraj.co.in/pages/photography.html">Photography</a></li>
                             <li ><a href="http://rajaselvaraj.co.in/pages/talks.html">Talks</a></li>
                             <!-- <li ><a href="http://rajaselvaraj.co.in/categories.html">Categories</a></li> -->
                             <li ><a href="http://rajaselvaraj.co.in/tags.html">Tags</a></li>
@@ -72,6 +76,10 @@
         <div class="span8 offset2 article-content">
 
             <p><span class="caps">OK</span>, I struggled with this for half an hour, so just to document the solution. On my new laptop with Ubuntu 12.04 and Libreoffice 3.5, I installed <a href="http://www.mendeley.com/">Mendeley</a> with the deb package from the website. Installation went well, but when trying to install the openoffice plugin, it first complained it could not find unopkg. After some time I found that this was now located at /usr/lib/libreoffice/program/. So I pointed Mendeleydesktop towards this and now it ended with a warning that &#8216;Couldn&#8217;t Install OpenOffice Plugin The OpenOffice unopkg utility gave the following output:&#8217;. I read about manually installing the oxt which is at &#8216;/opt/mendeleydesktop/share/mendeleydesktop/openOfficePlugin/Mendeley-1.5.2.oxt&#8217; and opened the extension manager at libreoffice when I found that the Mendeley plugin is already installed. So, all I had to was restart Libreoffice and the Mendeley toolbar was now&nbsp;available.</p>
+
+
+
+	    
             <aside>
             <nav>
             <ul class="articles_timeline">
@@ -147,12 +155,16 @@
 </div>
 </footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+	
         <script>
             function validateForm(query)
             {
                 return (query.length > 0);
             }
         </script>
+
+
+	
 
 <script type="text/javascript">
     var disqus_shortname = 'rajaselvaraj';
@@ -164,5 +176,7 @@
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
     </script>
+
+
     </body>
 </html>

@@ -13,6 +13,11 @@
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="http://rajaselvaraj.co.in/theme/css/style.css" media="screen">
         <link rel="stylesheet" type="text/css" href="http://rajaselvaraj.co.in/theme/css/solarizedlight.css" media="screen">
+
+	<!-- Masonry / fancybox -->
+
+	<link rel="stylesheet" href="http://rajaselvaraj.co.in/css/custom.css">
+	
         <link rel="shortcut icon" href="http://rajaselvaraj.co.in/theme/images/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="http://rajaselvaraj.co.in/theme/images/apple-touch-icon.png" />
         <link rel="apple-touch-icon" sizes="57x57" href="http://rajaselvaraj.co.in/theme/images/apple-touch-icon-57x57.png" />
@@ -46,7 +51,6 @@
                         <ul class="nav pull-right top-menu">
                             <!-- <li ><a href="http://rajaselvaraj.co.in">Home</a></li> -->
                             <li ><a href="http://rajaselvaraj.co.in/pages/about-me.html">About&nbsp;me</a></li>
-                            <li ><a href="http://rajaselvaraj.co.in/pages/photography.html">Photography</a></li>
                             <li ><a href="http://rajaselvaraj.co.in/pages/talks.html">Talks</a></li>
                             <!-- <li ><a href="http://rajaselvaraj.co.in/categories.html">Categories</a></li> -->
                             <li ><a href="http://rajaselvaraj.co.in/tags.html">Tags</a></li>
@@ -109,6 +113,10 @@ xinput gave me the following output, so I know the id for my touchpad is&nbsp;11
 </code></pre>
 <p><img class='inset right' src='/images/toggle_trackpad_screenshot.png' title='screenshot' width='600px' /></p>
 <p>Depending on whether the touchpad is enabled or not (getting it from &#8216;xinput list-props 11&#8217;), the script accordingly turns it on or off, by using &#8216;xinput set-prop&#8217;. In addition a notification appears through notify-osd. I put this script in my path, made it executable and then bound it to F5 (System Settings -&gt; Keyboard -&gt; Shortcuts -&gt; Custom shortcuts). It works perfectly, with the only issue being that the norification bubble stays for 10 seconds and although the man page for notify-send lists the argument &#8212;expire-time, this does not work. This apparently is a long-standing bug/feature(?) and I didn&#8217;t want to <a href="http://askubuntu.com/questions/128474/how-to-customize-on-screen-notifications">go to some lengths</a> at present to work around&nbsp;this.</p>
+
+
+
+	    
             <aside>
             <nav>
             <ul class="articles_timeline">
@@ -187,12 +195,16 @@ xinput gave me the following output, so I know the id for my touchpad is&nbsp;11
 </div>
 </footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+	
         <script>
             function validateForm(query)
             {
                 return (query.length > 0);
             }
         </script>
+
+
+	
 
 <script type="text/javascript">
     var disqus_shortname = 'rajaselvaraj';
@@ -204,5 +216,7 @@ xinput gave me the following output, so I know the id for my touchpad is&nbsp;11
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
     </script>
+
+
     </body>
 </html>

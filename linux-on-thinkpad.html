@@ -13,6 +13,11 @@
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="http://rajaselvaraj.co.in/theme/css/style.css" media="screen">
         <link rel="stylesheet" type="text/css" href="http://rajaselvaraj.co.in/theme/css/solarizedlight.css" media="screen">
+
+	<!-- Masonry / fancybox -->
+
+	<link rel="stylesheet" href="http://rajaselvaraj.co.in/css/custom.css">
+	
         <link rel="shortcut icon" href="http://rajaselvaraj.co.in/theme/images/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="http://rajaselvaraj.co.in/theme/images/apple-touch-icon.png" />
         <link rel="apple-touch-icon" sizes="57x57" href="http://rajaselvaraj.co.in/theme/images/apple-touch-icon-57x57.png" />
@@ -46,7 +51,6 @@
                         <ul class="nav pull-right top-menu">
                             <!-- <li ><a href="http://rajaselvaraj.co.in">Home</a></li> -->
                             <li ><a href="http://rajaselvaraj.co.in/pages/about-me.html">About&nbsp;me</a></li>
-                            <li ><a href="http://rajaselvaraj.co.in/pages/photography.html">Photography</a></li>
                             <li ><a href="http://rajaselvaraj.co.in/pages/talks.html">Talks</a></li>
                             <!-- <li ><a href="http://rajaselvaraj.co.in/categories.html">Categories</a></li> -->
                             <li ><a href="http://rajaselvaraj.co.in/tags.html">Tags</a></li>
@@ -76,6 +80,10 @@
 The system came with Windows 7 preinstalled (there is no option to avoid the &#8220;Windows tax&#8221;). The last thinkpad I got, I had no second thoughts about removing Windows Vista and installing Linux. This time, however, I decided to try and retain Windows 7. I did not want to dual boot since I use Windows rarely. For virtualization, the options were to retain windows on the disk and use it in &#8216;raw&#8217; mode or to convert the physical windows partitions into a virtual disk. For the latter there seemed to be two solutions, <a href="http://www.vmware.com/products/converter/">VMware&#8217;s converter</a> and <a href="http://technet.microsoft.com/en-us/sysinternals/ee656415.aspx">Microsoft&#8217;s disk2vhd</a>.
 disk2vhd was straightforward to use, working from within the running system itself. I selected all 3 partitions to make the virtual disk. This booted up fine in Virtualbox once virtualisation was enabled in the bios and the option &#8216;<span class="caps">IO</span> <span class="caps">APIC</span>&#8217; was enabled in virtualbox.
 I copied out the virtual hard disk and erased all the partitions before installing Ubuntu 12.04. As I have come to expect, the install was smooth and everything worked perfectly. With the <span class="caps">SSD</span>, booting up and resume from suspend are very fast and the system is very responsive and running cooler than my old&nbsp;one. </p>
+
+
+
+	    
             <aside>
             <nav>
             <ul class="articles_timeline">
@@ -154,12 +162,16 @@ I copied out the virtual hard disk and erased all the partitions before installi
 </div>
 </footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+	
         <script>
             function validateForm(query)
             {
                 return (query.length > 0);
             }
         </script>
+
+
+	
 
 <script type="text/javascript">
     var disqus_shortname = 'rajaselvaraj';
@@ -171,5 +183,7 @@ I copied out the virtual hard disk and erased all the partitions before installi
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
     </script>
+
+
     </body>
 </html>

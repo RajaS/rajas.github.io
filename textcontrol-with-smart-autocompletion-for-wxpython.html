@@ -13,6 +13,11 @@
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="http://rajaselvaraj.co.in/theme/css/style.css" media="screen">
         <link rel="stylesheet" type="text/css" href="http://rajaselvaraj.co.in/theme/css/solarizedlight.css" media="screen">
+
+	<!-- Masonry / fancybox -->
+
+	<link rel="stylesheet" href="http://rajaselvaraj.co.in/css/custom.css">
+	
         <link rel="shortcut icon" href="http://rajaselvaraj.co.in/theme/images/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="http://rajaselvaraj.co.in/theme/images/apple-touch-icon.png" />
         <link rel="apple-touch-icon" sizes="57x57" href="http://rajaselvaraj.co.in/theme/images/apple-touch-icon-57x57.png" />
@@ -46,7 +51,6 @@
                         <ul class="nav pull-right top-menu">
                             <!-- <li ><a href="http://rajaselvaraj.co.in">Home</a></li> -->
                             <li ><a href="http://rajaselvaraj.co.in/pages/about-me.html">About&nbsp;me</a></li>
-                            <li ><a href="http://rajaselvaraj.co.in/pages/photography.html">Photography</a></li>
                             <li ><a href="http://rajaselvaraj.co.in/pages/talks.html">Talks</a></li>
                             <!-- <li ><a href="http://rajaselvaraj.co.in/categories.html">Categories</a></li> -->
                             <li ><a href="http://rajaselvaraj.co.in/tags.html">Tags</a></li>
@@ -73,6 +77,10 @@
 
             <p>For my own use I needed a text entry widget in wxpython that allows smart autocompletion from a list of choices. By smart autocompletion, I mean choices should be displayed in a dropdown box and text entry should narrow down to matching choices. Match should be configurable to beginning only or anywhere within the string. Starting off from <a href="http://wiki.wxpython.org/TextCtrlAutoComplete">this</a>, I wrote my own textcontrol widget with autocomplete. A list of choices can be passed to the widget and matches can be configured. Check it out on <a href="https://github.com/RajaS/ACTextCtrl">github</a></p>
 <p><img class='inset left' src='/images/actextctrl_screenshot.png' title='Autocomplete in action' width='600px' /></p>
+
+
+
+	    
             <aside>
             <nav>
             <ul class="articles_timeline">
@@ -151,12 +159,16 @@
 </div>
 </footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+	
         <script>
             function validateForm(query)
             {
                 return (query.length > 0);
             }
         </script>
+
+
+	
 
 <script type="text/javascript">
     var disqus_shortname = 'rajaselvaraj';
@@ -168,5 +180,7 @@
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
     </script>
+
+
     </body>
 </html>
