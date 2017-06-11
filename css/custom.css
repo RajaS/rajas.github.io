@@ -1,0 +1,23 @@
+
+
+h2 {
+    font-size: 24px;
+}
+
+
+.article-content ol {
+    font-size: 1.2em;
+}
+
+.article-content ol a {
+    font-size: 1em;
+}
+
+/* For masonry */
+
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item { width: 20%; }
+.grid-item-full {width: 100%; }
+/* 2 columns */
+.grid-item-width2 { width: 40%; }
