@@ -1,0 +1,296 @@
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
+#+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+REVEAL_MARGIN: 0.2
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: none
+#+REVEAL_THEME: moon
+#+REVEAL_HLEVEL: 999
+#+REVEAL_EXTRA_CSS: local.css
+#+OPTIONS: reveal_show_notes:t
+
+
+#+TITLE: Indications for ICD therapy
+#+AUTHOR: Raja Selvaraj, JIPMER
+
+* Sudden death
+#+ATTR_REVEAL: :frag (appear)
+ - About a 1000 people attending this conference
+ - One of us is likely to die suddenly in the next one year (1)
+ - Most likely to happen outside the hospital
+ - Rhythm is VF if recorded within 4 minutes (2)
+ - We could implant ICDs in everyone to prevent that death
+ - Or we could learn to identify those most likely to benefit
+
+#+begin_reference
+1. Becker et al. Annals of Emergency Medicine 1993;22:86-91
+2. Hallstrom et al. Emerg Health Services
+#+end_reference
+
+#+BEGIN_NOTES
+ICD indications is all about refining selection so that most sudden deaths are prevented with least implants. Its more about knowing when not to implant a device!
+#+END_NOTES
+
+* Sources
+  - ACC / AHA guidelines (2008, update 2012) (1, 2)
+  - ESC guidelines (2015) (3)
+  - Appropriate use criteria (2013) (4)
+  - Original studies
+
+#+begin_reference
+1. Circulation 2008;117:e350-e40
+2. Circulation 2012;12
+3. Eur Heart J (2015) 36 (41): 2793-2867
+4. Heart Rhythm, Vol 10, No 4, April 2013:e11
+#+end_reference
+
+* Case 1
+  - Two patients and one ICD
+  - 40 M, Sustained VT, old MI, LVEF 35%, NYHA I
+  - 40 M, MI 1 yr back, LVEF 25%, NYHA I
+  - Who gets the ICD ?
+#+BEGIN_NOTES
+So, if you have these two patients, but for some reason can give a device to only one, whom would you choose?
+#+END_NOTES
+
+* Secondary prevention vs primary prevention
+  How much better is NNT ?
+  - 2 times (half)
+  - 3 times (third)
+  - 5 times
+  - 10 times
+#+BEGIN_NOTES
+So, you guessed that secondary prevention is more important than primary prevention. So what is the factor by which the NNTs are different, roughly?
+#+END_NOTES
+
+* NNT in ICD trials
+| Trial           | Mortality(3yrs) | NNT(3yrs) |
+|-----------------+-----------------+-----------|
+| MADIT2          |              31 |        11 |
+| SCD-HeFT (ICM)  |              28 |        18 |
+| SCD-HeFT (NICM) |            15.8 |        25 |
+|-----------------+-----------------+-----------|
+| MADIT           |              42 |         4 |
+| MUSTT           |            35.4 |         5 |
+|-----------------+-----------------+-----------|
+| AVID            |            35.9 |         9 |
+| CIDS            |              27 |        27 |
+| CASH            |              39 |        13 |
+| Metaanalysis    |              32 |        13 |
+|-----------------+-----------------+-----------|
+#+begin_reference
+Betts et al. Absolute risk reduction in total mortality with implantable cardioverter defibrillators: analysis of primary and secondary prevention trial data to aid risk/benefit analysis. Europace 2013; 15 (6): 813-819
+#+end_reference
+#+BEGIN_NOTES
+Surprise! The NNT in primary prevention trials is almost the same as those in the secondary prevention trials. Illustrates the importance of EF over anything else. Add to it the fact that AVID patients had unstable VT/VF and poor beta blocker use in the drug group.
+#+END_NOTES
+
+* ACC guidelines
+  - LV dysfunction / prior MI / at least 40 days post-MI / LVEF less than or equal to 30% / NYHA functional Class I. (Class I Level of Evidence: A)
+  - Structural heart disease / spontaneous sustained VT /  Hemodynamically stable or unstable. - (Class I Level of Evidence: B)
+#+BEGIN_NOTES
+And the guidelines also favor the primary prevention patient as having more evidence towards a class I indication than the secondary prevention patient. 
+#+END_NOTES
+
+* Case 2
+   #+ATTR_REVEAL: :frag (none none none appear)
+   - 36 male, AWMI
+   - VF on second day - defibrillated
+   - LVEF 30%
+
+* Family apprehensive, what would you do?
+  - ICD for secondary prevention?
+  - ICD for primary prevention?
+
+* Primary VF - No indication for ICD
+  - Related to reversible trigger
+  - Does not affect long term outcome
+  - ICD implant not indicated on this basis
+
+* Primary prevention?
+  - MADIT 2 requires 40 days post MI
+  - Early ICD implant not shown to be beneficial
+
+* ICD early post MI
+  [[file:images/dinamit_iris.jpg]]
+
+#+begin_reference
+1. Hohnloser et al. Prophylactic Use of an Implantable Cardioverter–Defibrillator after Acute Myocardial Infarction (DINAMIT) N Engl J Med 2004; 351:2481-2488
+2. Steinbeck et al. Defibrillator Implantation Early after Myocardial Infarction (IRIS) N Engl J Med 2009; 361:1427-1436
+#+end_reference
+#+BEGIN_NOTES
+Trials of early ICD implant have consistently shown no benefit.
+#+END_NOTES
+
+* Outcome?
+  - What is his prognosis?
+  - What would you do
+
+* Not benign !
+#+ATTR_REVEAL: :frag (appear)
+   - AIVR - benign
+   - Primary VF - poor acute outcome
+   - But does not impact long term outcome
+
+
+** Fast MI registry - 5 year analysis of outcomes
+   [[file:images/fast_mi_front.png]]
+#+BEGIN_NOTES
+French registry of patients with AMI.
+Provides best longitudinal data on these patients
+#+END_NOTES
+
+** Higher early mortality
+   [[file:images/fast_mi_early_mortality.png]]
+#+BEGIN_NOTES
+In hospital mortality is high
+#+END_NOTES
+
+** Long term outcome not affected
+   [[file:images/fast_mi_late_mortality.png]]
+#+BEGIN_NOTES
+But long term survival not different
+#+END_NOTES
+
+** What would you do?
+   - Revascularization
+   - Beta blockers
+   - Early risk stratification ?
+#+BEGIN_NOTES
+Revascularization and use of beta blockers are perhaps most important. May be a role for early risk stratification with holter monitoring and VT induction.
+#+END_NOTES
+
+** Appropriate use criteria for ICD implant
+   [[file:images/appropriate_early_vt.png]]
+#+BEGIN_NOTES
+AUC suggest possible role for ICD when 
+ - EF is low
+ - Recurrent VF
+ - Persistent NSVT
+ - Inducible VT
+ - revascularization not possible
+#+END_NOTES
+
+** Wearable defibrillator
+   # people are worried
+   [[file:images/wearable_defib.jpg]]
+#+BEGIN_NOTES
+Wearable defibrillator may play a role in these situations
+Provide safety net for a period until decision regarding ICD is clearer
+#+END_NOTES
+
+
+* Case 3
+  - 75 year old male
+  - Old MI
+  - LVEF 30%, NYHA III
+  - Creat 2.2, BUN 45
+  - RBBB, QRSd 140 ms
+  - Persistent atrial fibrillation
+
+* ICD advised elsewhere
+  - ICD indicated as per guidelines
+  - Can you deny ICD because of age?
+  - What would you advise?
+#+BEGIN_NOTES
+By guidelines, he qualifies for an ICD. And age or other comorbidities are not contraindications unless they significantly affect his longevity.
+#+END_NOTES
+
+* HF severity and benefit
+   [[./images/levy_scdheft.jpg]]
+
+#+begin_reference
+Levy et al. Circulation 2009;120:835-842
+#+end_reference
+#+BEGIN_NOTES
+As a general rule, sicker patients benefit less.
+#+END_NOTES
+
+* Other risk markers and U curve
+  Goldenberg - MADIT II
+  - Age > 70 yrs
+  - NYHA > II
+  - BUN > 26 mg/dl
+  - QRS d > 120 ms
+  - Atrial fibrillation
+
+#+begin_reference
+Goldenberg et al. JACC 2008;51:288-296
+#+end_reference
+
+#+BEGIN_NOTES
+Suggested U shaped curve with most benefit in those with 1-3 risk factors
+Longer follow up showed benefit in low risk group also. 
+Other risk scores are FADES and Seattle Heart Failure Model
+#+END_NOTES
+
+* Other risk markers and U curve
+#+ATTR_HTML: :width 70% 
+   [[./images/goldenberg.png]]
+
+  Seattle Heart Failure Model may be a better predictor
+#+begin_reference
+Application and comparison of the FADES, MADIT, and SHFM-D risk models for risk stratification of prophylactic implantable cardioverter-defibrillator treatment. Europace (2017) 19 (1): 72-80
+#+end_reference
+
+* Case 4 
+#+ATTR_REVEAL: :frag (appear)
+  - 45 M
+  - Old AWMI
+  - LVEF 32%, NYHA II
+  - 20% PVCs, short NSVT on holter
+  - What would you advise
+
+* Is there an indication for ICD?
+  - LVEF < 30%, NYHA I (MADIT 2)
+  - LVEF < 35%, NYHA II-III (SCD-HeFT)
+  - EP study (MADIT / MUSTT)
+  - ICD implant ?
+#+BEGIN_NOTES
+Not a candidate by MADIT II criteria, but yes by SCD-HeFT criteria. Might also consider under MADIT I or MUSTT criteria if inducible VT is present.
+#+END_NOTES
+
+* Ablation of PVCs
+  [[file:images/pvc_ablation1.png]]
+#+begin_reference
+Ablation of frequent PVC in patients meeting criteria for primary prevention ICD implant: Safety of withholding the implant. Heart Rhythm 2015;12:2434–2442
+#+end_reference
+#+BEGIN_NOTES
+Even in structural heart disease, there may be a component of reversible cardiomyopathy due to PVCs. 
+#+END_NOTES
+
+* May obviate need for ICD implant!
+  [[file:images/pvc_ablation2.png]]
+
+* Case 5
+  - 28 year old male
+  - Recurrent syncope
+
+* ECG
+  [[file:images/lqts2.jpg]]
+#+BEGIN_NOTES
+QT prolongation consistent with LQTS
+#+END_NOTES
+
+* Management?
+  - Lifestyle modification
+  - Beta blockers
+  - Sympathectomy
+  - ICD implantation
+
+* ICD implant in LQTS
+  - Syncope or VT while receiving beta blockers (IIa)
+  - Doing well 4 years later, on high dose beta blockers
+#+BEGIN_NOTES
+No need to hurry with ICD despite initial malignant presentation. Only non response to beta blockers necessitates ICD
+#+END_NOTES
+
+* Conclusion - When not to implant an ICD
+  - Expected survival with good functional status < 1 yr
+  - Incessant VT / VF
+  - Drug refractory class IV failure, not candidate for CRT / transplant
+  - VT / VF amenable to ablation
+  - Arrhythmias due to completely reversible cause
+
+

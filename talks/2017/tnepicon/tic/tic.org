@@ -1,0 +1,203 @@
+#    -*- mode: org -*-
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
+#+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+REVEAL_MARGIN: 0.2
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: none
+#+REVEAL_THEME: moon
+#+REVEAL_HLEVEL: 999
+#+REVEAL_EXTRA_CSS: local.css
+
+
+#+TITLE: Tachycardia Induced Cardiomyopathy
+#+AUTHOR: Raja Selvaraj, JIPMER
+
+* What are we doing to discuss?
+  - What is TIC and what is the mechanism?
+  - Common causes
+  - Management
+  - PVC mediated cardiomyopathy
+  - Atrial fibrillation
+#+BEGIN_NOTES
+This is a brief talk
+#+END_NOTES
+
+* What is Tachycardia induced Cardiomyopathy
+#+ATTR_REVEAL: :frag (appear)
+   - Heart failure
+   - Systolic dysfunction
+   - ? Diastolic dysfunction
+   - Due to prolonged elevated heart rate (> 100)
+   - Reversible on control of arrhythmia
+#+BEGIN_NOTES
+reversibility is key, which also means diagnosis is always provisional until lv function improves
+#+END_NOTES
+
+* What are the usual causes
+  - SVT
+    - Focal AT /  A flutter 
+    - AVNRT / AVRT / PJRT 
+  - VT
+    - RVOT VT 
+    - ILVT 
+  - Misc
+    - AF 
+    - PVCs
+#+BEGIN_NOTES
+Practically the common causes are AT, AFl, AF and ILVT
+#+END_NOTES
+
+
+* Mechanisms
+  - Myocardial energy depletion
+  - Myocardial ischemia
+  - Abnormal calcium handling
+  - Cellular and extracellular matrix remodeling
+
+
+* Sequence of events 
+  [[file:images/dilated_heart.png]]
+  - Cardiac dilatation, MR
+  - Elevated filling pressures
+  - wall thinning, decreased contractility
+  - heart failure, neurohormonal activation
+
+* Clinical features
+  - Any age (hydrops due to flutter)
+  - Obvious in many patients
+  - May need a high index of suspicion in some
+  - Diagnosis may be confirmed only after reversal of LV dysfunction
+
+* Diagnosis
+  - May be easy
+    - Atrial flutter, 2:1 conduction, LV dysfunction
+    - PJRT with LV dysfunction
+  - May be uncertain
+    - Atrial fibrillation with heart failure
+    - Post MI, LV dysfunction with PVCs
+  - Benefit of doubt
+#+BEGIN_NOTES
+Diagnosis tends to be straightforward or tricky. 
+Important to give benefit of doubt since reversibility is rare in cardiomyopathies
+#+END_NOTES
+
+* Management
+  - SVT - ablation
+  - Idiopathic VT - ablation
+  - AF - rate control / rhythm control
+  - Initial improvement seen as early as 24 hours
+  - Most recovery within one month
+  - Near normalisation in one year
+#+BEGIN_NOTES
+SVT and idiopathic VT are easy to ablate and this should be the choice of treatment
+Rate or rhythm control strategies are possible in AF
+#+END_NOTES
+
+* PVCs
+  - Repetitive dyssynchronous activation and not true tachycardia
+  - Only small fraction develop cardiomyopathy
+    - Related to burden / frequency, but no clear cut-off (10000, 20000, 16%, 20%, 24%)
+    - PVC QRS duration > 140 ms / 150 ms
+    - PVC coupling interval < 600 ms 
+    - Interpolation 
+#    - PVC coupling interval < 600 ms (Int J Cardiovasc Imaging 2003;19:295),
+#    - Interpolation (Heart rhythm 2011;8:1046) - weak evidence
+#  - 16%, 20%, 24% (AJP 1996;271:R1529, JCE 2011;22:663, Heart rhythm 2010;7:865)
+#    - 10000, 20000 (Heart 2009;95:1230, JCE 2011;22:791, ANE 2008;13:81)
+#    - PVC QRS duration > 140 ms / 150 ms (JCE 2011;22:791, Heart Rhythm 2012;9:1460)
+#+BEGIN_NOTES
+Burden as denoted by number of freq of PVCs have correlated with incidence of LV dysfunction
+Varying cut-offs have been proposed, but obviously, there is no magic number
+other important factors might be PVC QRS duration, PVC coupling interval and interpolation
+#+END_NOTES
+
+* PVC burden
+#+ATTR_HTML: :width 70%
+  [[file:images/pvc_burden.png]]
+#+begin_reference
+1. Niwano et al. Prognostic significance of frequent premature ventricular contractions originating from the ventricular outflow tract in patients with normal left ventricular function.     Heart 2009;95:1230-1237.
+2. Baman et al. Relationship between burden of premature ventricular complexes and left ventricular function. Heart Rhythm. 2010 Jul;7(7):865-9.
+#+end_reference
+
+
+* AF - an underrecognised cause ?
+  - Arrhythmia in first reported case in 1913
+  - Heart failure / LV dysfunction often attributed to other causes
+  - Irregularity of response may contribute ? 
+#  - Irregularity of response may contribute ? (AJC 1996;78:1431, JCE 2007;18:9)
+#+BEGIN_NOTES
+An interesting hypothesis, never clearly established, is that AF may also result in cardiomyopathy in absence of fast ventricular rate. 
+#+END_NOTES
+
+* DCM with arrhythmia or arrhythmia with TIC
+   - LV dimension may help differentiate
+   - BNP / LVEF not different, but LV size smaller (1)
+   - LVEDD < 66 predicts TIC (2)
+
+#+begin_reference
+1. Fujino et al. Characteristics of congestive heart failure accompanied by atrial fibrillation with special reference to tachycardia-induced cardiomyopathy. Circ J. 2007 Jun;71(6):936-40. 
+2. Jeong YH et al. Diagnostic approach and treatment strategy in tachycardia-induced cardiomyopathy. Clin Cardiol. 2008;31:172–178
+#+end_reference
+#+BEGIN_NOTES
+A dilemma. LV size seems to be best predictor of probabiliy of improvement of LV function when treating AF.
+#+END_NOTES
+
+
+* PVI or Ablate and PACE
+  - Atypical flutter / AF - Often refractory to pharmacologic therapy
+  - AVN ablation with pacing can be an excellent alternative
+  - In an experienced center, PVI may be superior ?
+  - Recurrences can result in rapid deterioration 
+# avn ablation can improve function in AF (Twidale PACE 1993;16:1275, Brignole AJC 1994;74:242)
+# (Heart Failure and Sudden Death in Patients With Tachycardia-Induced Cardiomyopathy and Recurrent Tachycardia
+# Pamela Nerheim, Sally Birger-Botkin, Lubna Piracha and Brian Olshansky
+# Circulation. 2004;110:247-252)
+
+* PABA-CHF study
+#+ATTR_HTML: :width 100%
+  [[file:images/paba_chf.jpg]]
+# multicenter US study
+# PVI versus AV node ablation with BiV pacing
+# 40 patients in each arm
+# suspiciously poor results in ablate and pace group
+# findings may not apply to less experienced centers
+
+#+begin_reference
+Khan MN et al. Pulmonary-Vein Isolation for Atrial Fibrillation in Patients with Heart Failure. N Engl J Med 2008; 359:1778-1785
+#+end_reference
+#+BEGIN_NOTES
+Multicenter study with 40 patients in each arm suggested that PVI has better outcomes than AV node ablation with BiV pacing
+But results in ablate and pace group are suspiciously poor.
+#+END_NOTES
+
+* Ablate and Pace
+#+ATTR_HTML: :width 60%
+  [[file:images/avn_ablation_metaanalysis.jpg]]
+#+begin_reference
+Wood et al. Clinical outcomes after ablation and pacing therapy for atrial fibrillation : a meta-analysis. Circulation. 2000 Mar 14;101(10):1138-44.
+#+end_reference
+#+BEGIN_NOTES
+Previous studies have consistently shown good results with ablate and pace strategy (even without CRT.) That has been our experience too.
+#+END_NOTES
+
+* Points to Ponder
+  - Component of TIC in post MI PVCs (1)
+  - Easier to ablate (2)
+  - MR sensitive marker of improvement
+  - Risk of sudden death (3) - role for vest?
+  - Late deaths 
+#+begin_reference
+1. Ablation of frequent PVC in patients meeting criteria for primary prevention ICD implant: Safety of withholding the implant. Heart Rhythm 2015;12:2434–2442
+2. Primary Radiofrequency Ablation for Incessant Idiopathic Ventricular Tachycardia. PACE 2002;25:1555
+3. Heart Failure and Sudden Death in Patients With Tachycardia-Induced Cardiomyopathy and Recurrent Tachycardia. Circulation. 2004;110:247-252
+#+end_reference
+
+
+
+
+
+
+
+
