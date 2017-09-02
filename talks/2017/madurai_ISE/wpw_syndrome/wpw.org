@@ -1,0 +1,113 @@
+
+#+TITLE:     WPW Syndrome - How to Read ECG 
+#+AUTHOR:    Raja Selvaraj, JIPMER
+#+DATE:
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:nil reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil timestamp:nil
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2
+#+REVEAL_TRANS: fade
+#+REVEAL_THEME: beige
+#+REVEAL_HLEVEL: 2
+#+REVEAL_PLUGINS: (notes)
+#+REVEAL_EXTRA_CSS: ./local.css
+#+OPTIONS: reveal_single_file:nil
+
+
+* Introduction
+
+** What is WPW syndrome?
+   - Constellation of findings in patients with an accessory pathway with bidirectional conduction
+   - Delta wave and short PR = preexcitation = antegrade conduction
+   - Palpitations / tachycardia = Orthodromic AVRT = retrograde conduction
+   - WPW pattern / preexcitation pattern
+
+** 
+   [[file:images/wpw_original_article.png]]
+
+
+* ECG findings
+
+** Main ECG findings
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+   - Short PR interval
+   - Delta wave
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+   [[file:images/wpw.jpg]]
+#+REVEAL_HTML: </div>
+
+** The delta wave
+   - Slurring of the initial part of the QRS
+   - Fusion between conduction from pathway and AV conduction system
+   - May be negative as well as positive
+   - Contribution to QRS dependent on degree of fusion
+
+** Delta wave
+   [[file:images/wpw_animation.gif]]
+
+
+** Localization - Not important
+   - V1 delta = ventricle of origin
+   - Inferior leads = superior / inferior
+
+** 
+   [[file:images/csap.jpg]]
+
+** 
+   [[file:images/LLAP_ECG.png]]
+
+** Differentiate delta wave from others
+   - Short PR
+   - Old MI
+   - Slurring
+
+** Middle aged male with Rheumatic MS
+   [[file:images/subtle_preexcitation_ms.jpg]]
+
+
+* Management
+
+** Problems
+#+ATTR_HTML: :width 600px
+   [[file:images/reentry.png]]
+
+** Risk of sudden death
+   - Rapid ventricular rate during atrial arrhythmias
+   - AV node behaves as natural defense 
+   - AP - short refractory period, rapid conduction 
+
+** Middle aged male with MS
+   [[file:images/preexcited_af.jpg]]
+
+** The low risk patient
+#+ATTR_HTML: :width 800px
+   [[file:images/intermittent_preexc.jpg]]
+
+
+** When to refer ?
+   - Any patient with suspect / obvious preexcitation
+   - Especially when history of palpitations
+   - Urgently if there is history of syncope / preexcited AF
+
+** Management of ORT
+   - Adenosine
+   - Other AV nodal blocking drugs
+
+** Management of preexcited AF
+   - Adenosine / beta blockers / calcium channel blockers should not be given
+   - Amiodarone - (not considered safe)
+   - Procainamide
+   - DC cardioversion
+
+** Ablation
+   - Curative treatment for pathways in all locations
+   - Success rate > 95% with low recurrence rate
+   - Low risk of complications
+
+
+

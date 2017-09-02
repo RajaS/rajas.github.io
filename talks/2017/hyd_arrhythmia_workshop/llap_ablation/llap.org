@@ -1,0 +1,315 @@
+#+TITLE:     Mapping and ablation of left sided pathways - How do I do it
+#+AUTHOR:    Raja Selvaraj, JIPMER
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:nil reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil timestamp:nil
+#+OPTIONS: reveal_single_file:nil
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2
+#+REVEAL_TRANS: fade
+#+REVEAL_THEME: moon
+#+REVEAL_HLEVEL: 2
+#+REVEAL_PLUGINS: (notes)
+#+REVEAL_EXTRA_CSS: ./local.css
+#+OPTIONS: reveal_show_notes:t
+
+
+* Introduction
+
+** Introduction
+   - 50 to 60% of all pathways
+   - Highest success rate
+   - Lowest recurrence rate
+#+BEGIN_NOTES
+Interestingly right free wall and left free wall APs are opposite
+in terms of frequency, success rate and recurrence rate
+#+END_NOTES
+
+** Points
+   - Approach - Retrograde vs transseptal
+   - Mapping - Coronary sinus
+   - Mapping - Separating A and V
+   - Difficult / failed ablations
+#+BEGIN_NOTES
+Points I am going to cover
+#+END_NOTES
+
+* Retrograde vs transseptal
+
+** Approaches
+#+ATTR_HTML: :width 600px
+   [[./images/both_approaches.png]]
+#+BEGIN_NOTES
+One of the first decisions is to make is the approach. 
+Transseptal and retrograde are possible
+#+END_NOTES
+
+** Retrograde or Transseptal - Evidence
+   - Similar success rate
+   - Similar procedure / fluoro time
+   - More complications with retrograde approach
+
+#+begin_reference
+Manolis AS, Wang PJ, Estes NA 3rd. Radiofrequency ablation of left-sided accessory pathways: transaortic versus transseptal approach. Am Heart J. 1994 Nov;128(5):896-902. 
+#+end_reference
+#+BEGIN_NOTES
+Studies regarding this are mostly old.
+Generally found similar success rates and procedure duration
+Fluoro time and complications may be higher with retrograde
+#+END_NOTES
+
+** Choosing an approach
+   - Personal preference
+   - Train in both
+   - May have to choose according to patient
+     - Pediatric / Peripheral arterial disease / Aortic valve disease
+     - Kyphoscoliosis
+   - Transseptal - more mobility, less stability
+   - Ready to switch
+#+BEGIN_NOTES
+Good to know both. 
+One approach may be preferable in some patients
+Most of the time it is personal preference
+#+END_NOTES
+
+* Coronary sinus
+
+** CS located away from annulus
+   [[./images/cs_position_ma.png]]
+
+#+begin_reference
+Shinbane JS, Lesh MD, Stevenson WG et al. Anatomic and electrophysiologic relation between the coronary sinus and mitral annulus: implications for ablation of left-sided accessory pathways. Am Heart J. 1998 Jan;135(1):93-8
+#+end_reference
+#+BEGIN_NOTES
+CS is usually used as guide to map. But use it as a rough guide. 
+Anatomically it doesnt always correspond to the annulus
+#+END_NOTES
+
+** CS LA connections
+   [[./images/cs_la_connections.png]]
+
+#+begin_reference
+Chauvin M, Shah DC, Haïssaguerre M et al. The anatomic basis of connections between the coronary sinus musculature and the left atrium in humans. Circulation. 2000 Feb 15;101(6):647-52. 
+#+end_reference
+#+BEGIN_NOTES
+And connections to LA are not continuous - they are discrete and variable
+#+END_NOTES
+
+** LA - CS block
+#+ATTR_HTML: :width 800px
+   [[./images/la_cs_block.jpg]]
+#+BEGIN_NOTES
+This is well seen rarely like this when an extrastimulus blocks from LA to CS
+This finding here confirms this is an endocardial connection
+#+END_NOTES
+
+** CS ventricular connections
+   [[./images/CS_LV_pathway.png]]
+   - About a third of all posteroseptal / left posterior APs
+   - 70% of them had no diverticulum
+
+#+begin_reference
+Sun Y, Arruda M, Otomo K et al. Coronary sinus-ventricular accessory connections producing posteroseptal and left posterior accessory pathways: incidence and electrophysiological identification. Circulation. 2002;106(11):1362-7.
+#+end_reference
+#+BEGIN_NOTES
+In contrast, connections may also exist from the CS to LV.
+In our experience this is not as common as reported by Jackman's group
+#+END_NOTES
+
+* Mapping - Rhythm
+
+** Mapping - Options
+   - Atrial activation during ventricular pacing
+     - Can intermittently check in sinus rhythm / atrial pacing
+     - May have to pace from RVOT / LV
+   - Ventricular activation during atrial pacing / sinus rhythm
+   - Ablation during tachycardia
+#+BEGIN_NOTES
+Preferable is mapping atrial activation with ventricular pacing
+Not possible when there is rapid conduction through AV conduction system
+Mapping during tachycardia may be require in that case
+#+END_NOTES
+
+** RVOT pacing
+   [[./images/pacing_rvot_rva.jpg]]
+#+BEGIN_NOTES
+Pacing from RVOT may help bring out pathway conduction
+#+END_NOTES
+
+** LV pacing
+   [[./images/lv_pacing.jpg]]
+#+BEGIN_NOTES
+Rarely LV pacing may be needed, either endocardially or from CS branch
+#+END_NOTES
+
+** Entrained tachycardia
+#+ATTR_HTML: :width 800px
+   [[./images/entrained_tachycardia.jpg]]
+
+#+BEGIN_NOTES
+If ablating during tachycardia, pace from ventricle to entrain tachycardia before ablation.
+This prevents catheter dislodgement upon tachycardia termination.
+
+Note that this slide illustrates the third rule of entrainment - conduction block to a site for one paced beat followed by termination of tachycardia and activation of that site from a different direction with shorter activation time
+#+END_NOTES
+
+* Mapping - Differentiating A and V
+
+** Separating A and V
+#+ATTR_HTML: :width 600px
+   [[./images/mask1.jpg]]
+#+BEGIN_NOTES
+Practically a common challenge is to identify the atrial and ventricular components in a signal. Here what is this signal composed of?
+#+END_NOTES
+
+** Information from other electrodes
+#+ATTR_HTML: :width 600px
+   [[./images/mask2.jpg]]
+#+BEGIN_NOTES
+Separate A and V in proximal bipole suggests both components may be there in distal EGM too
+#+END_NOTES
+
+** Unipolar
+#+ATTR_HTML: :width 600px
+   [[./images/mask3.jpg]]
+#+BEGIN_NOTES
+Unipolar EGM is useful providing indication of timing of onset of V
+#+END_NOTES
+
+** Non preexcited beats
+#+ATTR_HTML: :width 600px
+   [[./images/mask4.jpg]]
+#+BEGIN_NOTES
+Comparing with non preexcited beat allows clear identification of the components. 
+This may happen because of intermittent loss of preexcitation or by using atrial extrastimuli to block in the AP
+#+END_NOTES
+
+** Mapping - Pseudodisappearance
+#+ATTR_HTML: :width 600px
+   [[./images/pseudo_disappearance.png]]
+
+#+begin_reference
+Raja Selvaraj et al. Pseudodisappearance of atrial electrogram during accessory pathway ablation, EP Europace 2012;14(7):993
+#+end_reference
+#+BEGIN_NOTES
+Similarly while mapping A during ventricular pacing, a fortuitous beat with retrograde AP block shows us that there is an atrial signal which disappears during pathway conduction, indicating a good site with fused V and A
+#+END_NOTES
+
+** Simultaneous pacing
+#+ATTR_HTML: :width 600px
+   [[./images/simul_pacing.png]]
+
+#+begin_reference
+Nakao, Seto, Iliev et al. Simultaneous Atrial and Ventricular Pacing to Facilitate Mapping of Concealed Left-Sided Accessory Pathways. PACE 2002; 25:922–928
+#+end_reference
+#+BEGIN_NOTES
+Simultaneous AV pacing has been described to help in this situation
+#+END_NOTES
+
+** Reversal of activation in oblique pathway
+#+ATTR_HTML: :width 350px
+   [[./images/oblique_reversal.jpg]]
+
+#+begin_reference
+Otomo K, Gonzalez MD, Jackman WM et al. Reversing the direction of paced ventricular and
+atrial wavefronts reveals an oblique course in accessory AV pathways and improves
+localization for catheter ablation. Circulation. 2001 Jul 31;104(5):550-6. 
+#+end_reference
+#+BEGIN_NOTES
+Left sided pathway are often oblique. Pacing from RVOT may change activation, allowing better identification of earliest atrial activation and recognition of an AP potential.
+#+END_NOTES
+
+
+* Difficult / failed ablations
+
+** Reasons for failed ablation
+   - Inability to position catheter at target site
+   - Instability of catheter
+   - Mapping error due to oblique course
+   - Localisation errors
+   - Epicardial location
+   - Recurrent AF
+   - Unusual locations
+
+#+begin_reference
+Morady F, Strickberger A, Man KC et al. Reasons for prolonged or failed attempts at radiofrequency catheter ablation of accessory pathways. J Am Coll Cardiol. 1996;27(3):683-9. 
+#+end_reference
+
+** Stability
+   - Sheath
+   - Catheter course
+   - Retrograde approach
+   - Pacing if possible
+   - Entrain if during tachycardia
+
+** Oblique pathways 
+#+ATTR_HTML: :width 700px
+   [[./images/medial_both.jpg]]
+#+BEGIN_NOTES
+In this patient, at this site V activation is early, but on V pacing A is late 
+More laterally A was earlier indicating an atrial insertion that was more lateral
+#+END_NOTES
+
+** Oblique course
+   - Misleading VA interval
+   - Obscures AP potential
+   - Change pacing location
+   - Map for earliest activation (A/V)
+#+BEGIN_NOTES
+A key concept is to map for earliest atrial or ventricular activation when mappng atrial or ventricular insertion respectively and not going by shortest AV or VA alone. 
+Trigger mode helps with this. 
+#+END_NOTES
+
+** Isthmus block
+   [[./images/isthmus_block.png]]
+#+BEGIN_NOTES
+Sometimes during ablation, block can develop in the left sided isthmus resulting in change in CS activation. Need to map more laterally for the pathway.
+#+END_NOTES
+
+** Isthmus block
+   [[./images/isthmus_block2.png]]
+
+#+begin_reference
+Luria DM, Nemec J, Etheridge SP et al. Intra-atrial conduction block along the mitral valve annulus during accessory pathway ablation: evidence for a left atrial "isthmus". J Cardiovasc Electrophysiol. 2001;12(7):744-9. 
+#+end_reference
+
+** Isthmus block
+   [[./images/isthmus_block1.png]]
+
+
+** AF
+   [[./images/palani_af_llap.jpg]]
+#+BEGIN_NOTES
+AF may make mapping challenging, but in the presence of antegrade preexcitation, it is eminently possible. In this patient with rheumatic mitral valve disease, DC version wasnt an option, mapping was done during AF with successful ablation.
+#+END_NOTES
+
+** CS ventricular connection - CS muscle potential
+#+ATTR_HTML: :width 700px
+   [[./images/nandhin_02_2015_cs_potential.jpg]]
+#+BEGIN_NOTES
+A sharp CS potential is seen at successful site in CS connections.
+#+END_NOTES
+
+** LAA pathway
+   [[./images/laa2.jpg]]
+#+BEGIN_NOTES
+A relatively uncommon pathway connects from LAA to LV. 
+#+END_NOTES
+
+# ** Marshall bundle
+# Hwang C, Peter CT, Chen PS. Radiofrequency ablation of accessory pathways
+# guided by the location of the ligament of Marshall. J Cardiovasc Electrophysiol. 
+# 2003 Jun;14(6):616-20.
+
+* Summary
+
+** Summary
+   - Left sided pathways in general are easiest to ablate and have best long term results
+   - However, may occasionally present a challenge
+   - Use of different pacing patterns to differentiate A and V
+   - Mapping for earliest A / V
+   - Use of unipolar mapping
+   - Awareness of alternate pathway locations
+

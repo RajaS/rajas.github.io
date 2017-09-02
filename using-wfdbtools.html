@@ -78,46 +78,46 @@
             <p><a href="https://github.com/RajaS/ecgtk/blob/master/ecgtk/wfdbtools.py">wfdbtools</a> is a pure python module for accessing and using the waveform data in <a href="http://www.physionet.org/physiobank/">Physiobank</a>. Provides rdsamp and rdann which are the python equivalents of the wfdb applications of similar names. A deliberate attempt is made to try to keep names and usage similar to the original wfdb applications for simplicity of&nbsp;use.</p>
 <p>The only dependency that will need to be installed is numpy. However, to use the function plot_data, which is an utility function for interactive use, you need to have matplotlib also&nbsp;installed.</p>
 <p>Example&nbsp;Usage:</p>
-<pre><code>:::python
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">wfdbtools</span> <span class="kn">import</span> <span class="n">rdsamp</span><span class="p">,</span> <span class="n">rdann</span><span class="p">,</span> <span class="n">plot_data</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
 
-from wfdbtools import rdsamp, rdann, plot_data
-from pprint import pprint
+<span class="c1"># Record is a format 212 record from physiobank.</span>
+<span class="c1"># Note that name of record does not include extension.</span>
+<span class="n">record</span>  <span class="o">=</span> <span class="s1">&#39;samples/format212/100&#39;</span>
 
-# Record is a format 212 record from physiobank.
-# Note that name of record does not include extension.
-record  = 'samples/format212/100'
+<span class="c1"># Read in the data from 0 to 10 seconds</span>
+<span class="n">data</span><span class="p">,</span> <span class="n">info</span> <span class="o">=</span> <span class="n">rdsamp</span><span class="p">(</span><span class="n">record</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
 
-# Read in the data from 0 to 10 seconds
-data, info = rdsamp(record, 0, 10)
+<span class="c1"># returned data is an array. The columns are time(samples),</span>
+<span class="c1"># time(seconds), signal1, signal2</span>
+<span class="k">print</span> <span class="n">data</span><span class="o">.</span><span class="n">shape</span>
+<span class="p">(</span><span class="mi">3600</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
 
-# returned data is an array. The columns are time(samples),
-# time(seconds), signal1, signal2
-print data.shape
-(3600, 4)
+<span class="c1"># info is a dictionary containing header information</span>
+<span class="n">pprint</span> <span class="n">info</span>
+<span class="p">{</span><span class="s1">&#39;first_values&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">995</span><span class="p">,</span> <span class="mi">1011</span><span class="p">],</span>
+<span class="s1">&#39;gains&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">200</span><span class="p">,</span> <span class="mi">200</span><span class="p">],</span>
+<span class="s1">&#39;samp_count&#39;</span><span class="p">:</span> <span class="mi">650000</span><span class="p">,</span>
+<span class="s1">&#39;samp_freq&#39;</span><span class="p">:</span> <span class="mi">360</span><span class="p">,</span>
+<span class="s1">&#39;signal_names&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;MLII&#39;</span><span class="p">,</span> <span class="s1">&#39;V5&#39;</span><span class="p">],</span>
+<span class="s1">&#39;zero_values&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1024</span><span class="p">,</span> <span class="mi">1024</span><span class="p">]}</span>
 
-# info is a dictionary containing header information
-pprint info
-{'first_values': [995, 1011],
-'gains': [200, 200],
-'samp_count': 650000,
-'samp_freq': 360,
-'signal_names': ['MLII', 'V5'],
-'zero_values': [1024, 1024]}
+<span class="c1"># And now read the annotation</span>
+<span class="n">ann</span> <span class="o">=</span> <span class="n">rdann</span><span class="p">(</span><span class="n">record</span><span class="p">,</span> <span class="s1">&#39;atr&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
 
-# And now read the annotation
-ann = rdann(record, 'atr', 0, 10)
-
-# ann has 3 columns - sample number, time (sec) and annotation code
-print(ann[:4,:])
-array([[  18.   ,    0.05 ,   28.   ],
-           [  77.   ,    0.214,    1.   ],
-       [ 370.   ,    1.028,    1.   ],
-           [ 662.   ,    1.839,    1.   ]])
+<span class="c1"># ann has 3 columns - sample number, time (sec) and annotation code</span>
+<span class="k">print</span><span class="p">(</span><span class="n">ann</span><span class="p">[:</span><span class="mi">4</span><span class="p">,:])</span>
+<span class="n">array</span><span class="p">([[</span>  <span class="mf">18.</span>   <span class="p">,</span>    <span class="mf">0.05</span> <span class="p">,</span>   <span class="mf">28.</span>   <span class="p">],</span>
+           <span class="p">[</span>  <span class="mf">77.</span>   <span class="p">,</span>    <span class="mf">0.214</span><span class="p">,</span>    <span class="mf">1.</span>   <span class="p">],</span>
+       <span class="p">[</span> <span class="mf">370.</span>   <span class="p">,</span>    <span class="mf">1.028</span><span class="p">,</span>    <span class="mf">1.</span>   <span class="p">],</span>
+           <span class="p">[</span> <span class="mf">662.</span>   <span class="p">,</span>    <span class="mf">1.839</span><span class="p">,</span>    <span class="mf">1.</span>   <span class="p">]])</span>
 
 
-# Plot the data and the mark the annotations
-plot_data(data, info, ann)
-</code></pre>
+<span class="c1"># Plot the data and the mark the annotations</span>
+<span class="n">plot_data</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">info</span><span class="p">,</span> <span class="n">ann</span><span class="p">)</span>
+</pre></div>
+
+
 <p><img class='inset center' src='/images/wfdb_plot.png' title='Plot' width='600px' /></p>
 
 

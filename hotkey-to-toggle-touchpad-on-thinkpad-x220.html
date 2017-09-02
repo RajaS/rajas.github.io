@@ -78,7 +78,7 @@
             <p>My thinkpad x220 is my third thinkpad and the first one with a touchpad. While I find it useful specifically for scrolling documents and for zooming in and out for images, it can also come in the way the rest of the time hen I am primarily using the keyboard and trackpoint. So I wanted to be able to toggle the touchpad on and off using a key.
 <!-- more -->
 xinput gave me the following output, so I know the id for my touchpad is&nbsp;11.</p>
-<pre><code>⎡ Virtual core pointer                      id=2    [master pointer  (3)]
+<div class="highlight"><pre><span></span>⎡ Virtual core pointer                      id=2    [master pointer  (3)]
 ⎜   ↳ Virtual core XTEST pointer                id=4    [slave  pointer  (2)]
 ⎜   ↳ TPPS/2 IBM TrackPoint                     id=13   [slave  pointer  (2)]
 ⎜   ↳ SynPS/2 Synaptics TouchPad                id=11   [slave  pointer  (2)]
@@ -90,27 +90,31 @@ xinput gave me the following output, so I know the id for my touchpad is&nbsp;11
     ↳ Integrated Camera                         id=9    [slave  keyboard (3)]
     ↳ AT Translated Set 2 keyboard              id=10   [slave  keyboard (3)]
     ↳ ThinkPad Extra Buttons                    id=12   [slave  keyboard (3)]
-</code></pre>
+</pre></div>
+
+
 <p>Then starting from <a href="https://help.ubuntu.com/community/SynapticsTouchpad/ShortcutKey">here</a>, I wrote the following simple&nbsp;script.</p>
-<pre><code> #!/bin/sh
+<div class="highlight"><pre><span></span> #!/bin/sh
 
  # I know my trackpad device id is 11
- tp_enabled=`xinput list-props 11 | grep "Device Enabled" | awk '{print $4}'`
+ tp_enabled=`xinput list-props 11 | grep &quot;Device Enabled&quot; | awk &#39;{print $4}&#39;`
 
  # if enabled, disable it
  if [ $tp_enabled = 1 ]
  then
-     xinput set-prop 11 "Device Enabled" 0 &amp;&amp; notify-send 'Trackpad disabled'
+     xinput set-prop 11 &quot;Device Enabled&quot; 0 &amp;&amp; notify-send &#39;Trackpad disabled&#39;
 
  # if disabled, enable it
  elif [ $tp_enabled = 0 ]
  then
-     xinput set-prop 11 "Device Enabled" 1 &amp;&amp; notify-send 'Trackpad enabled'
+     xinput set-prop 11 &quot;Device Enabled&quot; 1 &amp;&amp; notify-send &#39;Trackpad enabled&#39;
 
  else
- notify-send 'Could not get trackpad status'
+ notify-send &#39;Could not get trackpad status&#39;
  fi
-</code></pre>
+</pre></div>
+
+
 <p><img class='inset right' src='/images/toggle_trackpad_screenshot.png' title='screenshot' width='600px' /></p>
 <p>Depending on whether the touchpad is enabled or not (getting it from &#8216;xinput list-props 11&#8217;), the script accordingly turns it on or off, by using &#8216;xinput set-prop&#8217;. In addition a notification appears through notify-osd. I put this script in my path, made it executable and then bound it to F5 (System Settings -&gt; Keyboard -&gt; Shortcuts -&gt; Custom shortcuts). It works perfectly, with the only issue being that the norification bubble stays for 10 seconds and although the man page for notify-send lists the argument &#8212;expire-time, this does not work. This apparently is a long-standing bug/feature(?) and I didn&#8217;t want to <a href="http://askubuntu.com/questions/128474/how-to-customize-on-screen-notifications">go to some lengths</a> at present to work around&nbsp;this.</p>
 

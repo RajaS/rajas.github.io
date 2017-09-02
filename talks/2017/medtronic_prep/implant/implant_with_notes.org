@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Device Implant Procedure</title>
+<meta name="author" content="(Raja Selvaraj, Additional Prof and Head, Department of Cardiology, JIPMER)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="/js/reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="/js/reveal.js/css/theme/solarized.css" id="theme"/>
+
+<link rel="stylesheet" href="./local.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '/js/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Device Implant Procedure</h1><h2 class="author">Raja Selvaraj, Additional Prof and Head, Department of Cardiology, JIPMER</h2>
+</section>
+
+<section>
+<section id="slide-org1f5cda7">
+<h2 id="org1f5cda7">Preparation</h2>
+<div class="outline-text-2" id="text-org1f5cda7">
+</div></section>
+</section>
+<section>
+<section id="slide-orgb096506">
+<h3 id="orgb096506">Pre-procedure</h3>
+<div class="outline-text-3" id="text-orgb096506">
+</div></section>
+</section>
+<section>
+<section id="slide-org2459502">
+<h4 id="org2459502">Pre-procedure evaluation</h4>
+<ul>
+<li>Check indication</li>
+<li>Decide on pacing mode</li>
+<li>Decide on side</li>
+<li>Discuss with patient</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org1f15f1c">
+<h4 id="org1f15f1c">Pre-procedure preparation</h4>
+<ul>
+<li>Fasting (hydration)</li>
+<li>Ipsilateral venous cannula</li>
+<li>Blood investigations</li>
+<li>Drugs - antiplatelets, anticoagulation</li>
+<li>Chest X-ray</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org6dd3651">
+<h4 id="org6dd3651">Prep and drape</h4>
+<ul>
+<li>Shaving / trimming</li>
+<li>Antiseptic scrub</li>
+<li>Drape</li>
+<li>Skin film</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org5a63e5e">
+<h3 id="org5a63e5e">Anaesthesia and Instruments</h3>
+<div class="outline-text-3" id="text-org5a63e5e">
+</div></section>
+</section>
+<section>
+<section id="slide-orgacfc57f">
+<h4 id="orgacfc57f">Local anaesthesia</h4>
+<ul>
+<li>Lignocaine</li>
+<li>Additional Bupivacaine</li>
+<li>0.5 - 2.0 %</li>
+<li>3-4 mg/kg</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org5161992">
+<h4 id="org5161992">Anaesthesia</h4>
+<ul>
+<li>Conscious sedation</li>
+<li>Fentanyl + Midazolam</li>
+<li>General anaesthesia</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org0b0646b">
+<h4 id="org0b0646b">Instruments - 1</h4>
+<ul>
+<li>Clamps - Hemostats, Allis, Babcock</li>
+<li>Scissors - Mayo, Metzenbaum</li>
+<li>Forceps - toothed, Adson</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org9443d08">
+<h4 id="org9443d08">Instruments - 2</h4>
+<ul>
+<li>Scalpel - #20 blade, #11/15 blade, #3 and #4 handle</li>
+<li>Needle holder</li>
+<li>Retractor - Senn, cats paw, Weitlaner self retaining</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org74bc3e9">
+<h2 id="org74bc3e9">Incision and dissection</h2>
+<div class="outline-text-2" id="text-org74bc3e9">
+</div></section>
+</section>
+<section>
+<section id="slide-org21a3e85">
+<h4 id="org21a3e85">Choosing side</h4>
+<ul>
+<li>Profession ?</li>
+<li>Left side - Common, easier route, problems with persistent LSVC</li>
+<li>Right side - Difficulty due to angulation, CRT difficult, ICD problems</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orge8c1897">
+<h4 id="orge8c1897">Side</h4>
+
+<div class="figure">
+<p><img src="media/images/right_vs_left.jpg" alt="right_vs_left.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgc5791b1">
+<h4 id="orgc5791b1">Persistent LSVC</h4>
+
+<div class="figure">
+<p><img src="media/images/lsvc_lead.png" alt="lsvc_lead.png" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orge1f0682">
+<h4 id="orge1f0682"></h4>
+
+<div class="figure">
+<p><img src="media/images/lsvc_vvi.jpg" alt="lsvc_vvi.jpg" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org00bc472">
+<h4 id="org00bc472">Skin incision</h4>
+<ul>
+<li>Horizontal</li>
+<li>Parallel to deltopectoral groove</li>
+<li>Length of incision</li>
+<li>20 blade</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org1891209">
+<h4 id="org1891209">Dissection</h4>
+<ul>
+<li>Use self retaining retractor</li>
+<li>Sharp dissection with 11 blade / Cautery</li>
+<li>Upto Deltopectoral fascia</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org59dbdac">
+<h2 id="org59dbdac">Venous access</h2>
+<div class="outline-text-2" id="text-org59dbdac">
+</div></section>
+</section>
+<section>
+<section id="slide-org5a4a355">
+<h4 id="org5a4a355">Routes</h4>
+<ul>
+<li>Cephalic vein</li>
+<li>Subclavian vein</li>
+<li>Axillary vein</li>
+<li>Other, unconventional</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org6369138">
+<h4 id="org6369138">Venous access at JIPMER (approx)</h4>
+<ul>
+<li>75% - Cephalic vein (30% assisted)</li>
+<li>24% - Axillary vein puncture (25% with venogram)</li>
+<li>1% - Subclavian vein puncture</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgc3f5981">
+<h4 id="orgc3f5981">Anatomy</h4>
+
+<div class="figure">
+<p><img src="media/images/anatomy.jpg" alt="anatomy.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org0a4ecda">
+<h3 id="org0a4ecda">Cephalic vein</h3>
+<div class="outline-text-3" id="text-org0a4ecda">
+</div></section>
+</section>
+<section>
+<section id="slide-org6664476">
+<h4 id="org6664476">Cephalic vein dissection</h4>
+<ul>
+<li>Sharp dissection of pectoral fascia</li>
+<li>Identify pad of fat in deltopectoral groove</li>
+<li>Vein is within pad of fat</li>
+<li>Separate from fascia, distal tie, open and pass lead</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org3f45fb6">
+<h4 id="org3f45fb6">Cephalic vein dissection</h4>
+
+<div class="figure">
+<p><img src="media/images/cephalic_cutdown1.jpg" alt="cephalic_cutdown1.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgeacbb51">
+<h4 id="orgeacbb51">Cephalic vein dissection</h4>
+
+<div class="figure">
+<p><img src="media/images/cephalic_cutdown.jpg" alt="cephalic_cutdown.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org3484999">
+<h4 id="org3484999">Assisted cephalic vein access</h4>
+<ul>
+<li>Wire and lead</li>
+<li>Wire and peel-away</li>
+<li>0.014 wire -&gt; 5F -&gt; exchange for 0.035 -&gt; 7F</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org8cd68c0">
+<h4 id="org8cd68c0">Cephalic vein</h4>
+
+<div class="figure">
+<p><img src="media/images/cephalic_venogram.jpg" alt="cephalic_venogram.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgd4d17bf">
+<h4 id="orgd4d17bf">Cephalic vein</h4>
+
+<div class="figure">
+<p><img src="media/images/cephalic_stenosis.jpg" alt="cephalic_stenosis.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org643d361">
+<h4 id="org643d361">Cephalic venogram</h4>
+<div class="HTML">
+<p>
+   &lt;video id="vid" autoplay controls&gt;
+   &lt;source data-src="media/videos/cephalic.mp4" type="video/mp4"/&gt;
+&lt;/video&gt;
+</p>
+
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org8920bb1">
+<h4 id="org8920bb1">Cephalic vein - pros and cons</h4>
+<ul>
+<li>( - ) Learning curve</li>
+<li>( - ) Time</li>
+<li>( - ) Painful</li>
+<li>( - ) May not take multiple leads</li>
+<li>( + ) No pneumothorax</li>
+<li>( + ) No lead crush</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org652c829">
+<h3 id="org652c829">Axillary vein</h3>
+<div class="outline-text-3" id="text-org652c829">
+</div></section>
+</section>
+<section>
+<section id="slide-org75d283a">
+<h4 id="org75d283a">Axillary vein puncture</h4>
+<ul>
+<li>Fluoro guided</li>
+<li>Junction of clavicle and first rib</li>
+<li>Walk along first rib</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org91c25c8">
+<h4 id="org91c25c8">Axillary vein  - pros and cons</h4>
+<ul>
+<li>( - ) Small learning curve</li>
+<li>( - ) Needs fluoroscopy</li>
+<li>( - ) Needs venogram (myth !)</li>
+<li>( + ) Very low risk of pneumothorax</li>
+<li>( + ) No lead crush</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org105fd2b">
+<h3 id="org105fd2b">Subclavian vein</h3>
+<div class="outline-text-3" id="text-org105fd2b">
+</div></section>
+</section>
+<section>
+<section id="slide-orgf668d3f">
+<h4 id="orgf668d3f">Subclavian vein puncture</h4>
+
+<div class="figure">
+<p><img src="media/images/subcl_puncture.jpg" alt="subcl_puncture.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgce15768">
+<h4 id="orgce15768">Subclavian vein - pros and cons</h4>
+<ul>
+<li>( + ) More people are familiar</li>
+<li>( + ) Anatomical landmarks sufficient</li>
+<li>( - ) Risk of pneumothorax</li>
+<li>( - ) Risk of lead crush</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgc07a98d">
+<h4 id="orgc07a98d">Lead crush</h4>
+
+<div class="figure">
+<p><img src="media/images/subclavian_crush.jpg" alt="subclavian_crush.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org7fa740c">
+<h4 id="org7fa740c">Single versus separate punctures</h4>
+<ul>
+<li>In case of difficult punctures</li>
+<li>Routinely ?</li>
+<li>Retained guidewire technique</li>
+<li>Double wire technique</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgab85115">
+<h3 id="orgab85115">Tips</h3>
+<div class="outline-text-3" id="text-orgab85115">
+</div></section>
+</section>
+<section>
+<section id="slide-org036878e">
+<h4 id="org036878e">Axillary vein / subclavian puncture - tips</h4>
+<ul>
+<li>Lignocaine in syringe</li>
+<li>No roll under shoulders</li>
+<li>Trendelenburg or elevate legs</li>
+<li>Verify venous access (IVC)</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgc7fe669">
+<h4 id="orgc7fe669">Avoiding air embolism</h4>
+<ul>
+<li>Adequate hydration !</li>
+<li>Trendelenberg / Leg elevation</li>
+<li>Pinch sheath</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgeb6a12c">
+<h4 id="orgeb6a12c">Venogram</h4>
+<ul>
+<li>Difficult puncture</li>
+<li>Pre-existing leads</li>
+<li>10-15 ml of contrast from ipsilateral arm</li>
+<li>Management of stenosis</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgc515ab2">
+<h4 id="orgc515ab2">Puncture with venogram</h4>
+<div class="HTML">
+<p>
+   &lt;video id="vid" autoplay controls&gt;
+   &lt;source data-src="media/videos/puncture<sub>crop.mp4</sub>" type="video/mp4"/&gt;
+&lt;/video&gt;
+</p>
+
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org3be725b">
+<h4 id="org3be725b">Unconventional access</h4>
+<ul>
+<li>Internal jugular vein</li>
+<li>Femoral vein</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org2d1c1ea">
+<h2 id="org2d1c1ea">Lead placement</h2>
+<div class="outline-text-2" id="text-org2d1c1ea">
+</div></section>
+</section>
+<section>
+<section id="slide-org8bf9540">
+<h3 id="org8bf9540">Ventricular lead placement</h3>
+<div class="outline-text-3" id="text-org8bf9540">
+</div></section>
+</section>
+<section>
+<section id="slide-org6db0a0b">
+<h4 id="org6db0a0b">Choosing a lead</h4>
+<ul>
+<li>Active or passive</li>
+<li>Length</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org959ea5d">
+<h4 id="org959ea5d">RVA position - the mimics</h4>
+<ul>
+<li>RA -&gt; PFO -&gt; LA -&gt; LV</li>
+<li>RA -&gt; CS -&gt; lateral vein</li>
+<li>RA -&gt; Hepatic vein</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org58ae4d8">
+<h4 id="org58ae4d8">RVA placement</h4>
+<ul>
+<li>Gently curved stylet</li>
+<li>Straight stylet</li>
+<li>RVOT -&gt; RVA</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orge8e00a2">
+<h4 id="orge8e00a2">RVA</h4>
+
+<div class="figure">
+<p><img src="media/images/pa_postion.jpg" alt="pa_postion.jpg" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org90a5d93">
+<h4 id="org90a5d93">RVA</h4>
+
+<div class="figure">
+<p><img src="media/images/passive_rva.jpg" alt="passive_rva.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org221084e">
+<h4 id="org221084e">RV apex</h4>
+<div class="HTML">
+<p>
+   &lt;video autoplay controls&gt;
+   &lt;source data-src="media/videos/perforation.mp4" type="video/mp4"/&gt;
+&lt;/video&gt;
+</p>
+
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org242bc55">
+<h4 id="org242bc55">RVOT pacing</h4>
+<ul>
+<li>Active fixation lead</li>
+<li>Stylet shaping</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org3eb67f1">
+<h4 id="org3eb67f1">RVOT pacing</h4>
+
+<div class="figure">
+<p><img src="media/images/rvot_before_screw.jpg" alt="rvot_before_screw.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org921bf43">
+<h4 id="org921bf43">RVOT pacing</h4>
+
+<div class="figure">
+<p><img src="media/images/screw.jpg" alt="screw.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orga25f9ff">
+<h4 id="orga25f9ff">RVOT pacing</h4>
+
+<div class="figure">
+<p><img src="media/images/screwe.jpg" alt="screwe.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org2def344">
+<h4 id="org2def344">RVOT pacing</h4>
+
+<div class="figure">
+<p><img src="media/images/rvot_lead.jpg" alt="rvot_lead.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgbaf167c">
+<h4 id="orgbaf167c">RVOT pacing</h4>
+
+<div class="figure">
+<p><img src="media/images/rvot_pacing_ecg.jpg" alt="rvot_pacing_ecg.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org0f92fdb">
+<h4 id="org0f92fdb">Extra loop</h4>
+
+<div class="figure">
+<p><img src="media/images/alpha_loop.jpg" alt="alpha_loop.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orge2770f2">
+<h3 id="orge2770f2">Atrial lead placement</h3>
+<div class="outline-text-3" id="text-orge2770f2">
+</div></section>
+</section>
+<section>
+<section id="slide-org78d3973">
+<h4 id="org78d3973">Atrial appendage</h4>
+<ul>
+<li>Pre-formed J</li>
+<li>J shaped stylet</li>
+<li>Recognize appendage position</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org52db86a">
+<h4 id="org52db86a"></h4>
+<div class="HTML">
+<p>
+   &lt;video id="vid" autoplay controls&gt;
+   &lt;source data-src="media/videos/RA<sub>lead</sub><sub>placement.mp4</sub>" type="video/mp4"/&gt;
+&lt;/video&gt;
+</p>
+
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orge9a4385">
+<h4 id="orge9a4385">Other atrial locations</h4>
+<ul>
+<li>Active fixation lead</li>
+<li>Lateral wall</li>
+<li>Septum</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgba61361">
+<h3 id="orgba61361">VDD lead</h3>
+<div class="outline-text-3" id="text-orgba61361">
+</div></section>
+</section>
+<section>
+<section id="slide-orgfcd479d">
+<h4 id="orgfcd479d">VDD lead placement</h4>
+<ul>
+<li>Similar to RVA lead</li>
+<li>Inter-electrode distance</li>
+<li>Position the bipole</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org69e47a4">
+<h2 id="org69e47a4">Finishing</h2>
+<div class="outline-text-2" id="text-org69e47a4">
+</div></section>
+</section>
+<section>
+<section id="slide-orgef93cb9">
+<h3 id="orgef93cb9">Fix and connect</h3>
+<div class="outline-text-3" id="text-orgef93cb9">
+</div></section>
+</section>
+<section>
+<section id="slide-org468d537">
+<h4 id="org468d537">Fixing lead</h4>
+<ul>
+<li>Use a suture sleeve</li>
+<li>Fixing to fascia / muscle</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgf923e8a">
+<h4 id="orgf923e8a">Attaching PG</h4>
+<ul>
+<li>Connector pin position</li>
+<li>Dynamometric wrench - stops and signals when desired torque is achieved</li>
+<li>Tug to test</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgd8441ec">
+<h3 id="orgd8441ec">Pocket</h3>
+<div class="outline-text-3" id="text-orgd8441ec">
+</div></section>
+</section>
+<section>
+<section id="slide-orgd9c9d83">
+<h4 id="orgd9c9d83">Pocket creation</h4>
+<ul>
+<li>Sharp dissection</li>
+<li>Controlled blunt dissection</li>
+<li>Medial</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org02709ee">
+<h4 id="org02709ee">Subpectoral pocket</h4>
+<ul>
+<li>Indications</li>
+<li>Between heads of pectoralis major</li>
+<li>Split pectoralis major</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org6476075">
+<h3 id="org6476075">Closure</h3>
+<div class="outline-text-3" id="text-org6476075">
+</div></section>
+</section>
+<section>
+<section id="slide-org24bfecd">
+<h4 id="org24bfecd">Closure</h4>
+<ul>
+<li>Subcutaneous- Vicryl 2-0 in two layers</li>
+<li>Skin - Vicryl 3-0 subcuticular</li>
+<li>Skin - Prolene 3-0 mattress</li>
+
+</ul>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org97ef6d2">
+<h2 id="org97ef6d2">Post implant</h2>
+<div class="outline-text-2" id="text-org97ef6d2">
+</div></section>
+</section>
+<section>
+<section id="slide-org615b787">
+<h3 id="org615b787">Post implant care</h3>
+<div class="outline-text-3" id="text-org615b787">
+</div></section>
+</section>
+<section>
+<section id="slide-org3a99432">
+<h4 id="org3a99432">Post procedure care</h4>
+<ul>
+<li>Immobilisation / bed rest ?</li>
+<li>Analgesia</li>
+<li>Chest X ray after 4-6 hours</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgebebdb0">
+<h4 id="orgebebdb0">Post procedure care</h4>
+<ul>
+<li>ECG / Pacemaker check</li>
+<li>Antibiotics ?</li>
+<li>Shower ?</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgc19def4">
+<h4 id="orgc19def4">Post procedure CXR</h4>
+
+<div class="figure">
+<p><img src="media/images/pneumothorax_post_ppm.jpg" alt="pneumothorax_post_ppm.jpg" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org6c1bdc4">
+<h2 id="org6c1bdc4">PG change</h2>
+<div class="outline-text-2" id="text-org6c1bdc4">
+</div></section>
+</section>
+<section>
+<section id="slide-orga7f0bbb">
+<h4 id="orga7f0bbb">Preparation</h4>
+<ul>
+<li>Check lead status if possible</li>
+<li>Check dependent status if possibletotal 2072</li>
+<li>Information about leads - uni/bi, connector type</li>
+<li>Need for pacing, need for upgrade / change</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgf0af916">
+<h4 id="orgf0af916">PG change</h4>
+<ul>
+<li>Locating incision</li>
+<li>Avoid damage to lead</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org4b7a4f7">
+<h4 id="org4b7a4f7">Venous stenosis</h4>
+
+<div class="figure">
+<p><img src="media/images/stenosis.jpg" alt="stenosis.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org28d80d3">
+<h4 id="org28d80d3">Venous obstruction</h4>
+<div class="HTML">
+<p>
+   &lt;video id="vid" autoplay controls&gt;
+   &lt;source data-src="media/videos/subl<sub>obstr.mp4</sub>" type="video/mp4"/&gt;
+&lt;/video&gt;
+</p>
+
+</div>
+</section>
+</section>
+</div>
+</div>
+<script src="/js/reveal.js/lib/js/head.min.js"></script>
+<script src="/js/reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: true,
+center: true,
+slideNumber: 'c',
+rollingLinks: true,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 800,
+margin: 0.20,
+minScale: 0.50,
+maxScale: 2.50,
+showNotes: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: '/js/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: '/js/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '/js/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '/js/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '/js/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

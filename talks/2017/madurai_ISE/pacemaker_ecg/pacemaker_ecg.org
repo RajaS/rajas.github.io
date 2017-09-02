@@ -1,0 +1,94 @@
+#+TITLE:     Pacemaker ECG - An introduction
+#+AUTHOR:    Raja Selvaraj, JIPMER
+#+DATE:
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:nil reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil timestamp:nil
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2
+#+REVEAL_TRANS: fade
+#+REVEAL_THEME: moon
+#+REVEAL_HLEVEL: 2
+#+REVEAL_PLUGINS: (notes)
+#+REVEAL_EXTRA_CSS: ./local.css
+#+OPTIONS: reveal_single_file:nil
+
+Pacemaker ECG - Raja Selvaraj
+
+
+* General principles of pacemaker function
+
+** Pacing
+   - Delivers a rectangular electrical stimulus a timed intervals
+   - Seen as a high frequency pacing spike
+   - Followed by capture of the respective chamber
+
+
+** Pacing
+   [[file:images/pace_animation.gif]]
+
+** Pacing
+#+ATTR_HTML: :width 600px
+   [[file:images/pacing.jpg]]
+
+** Unipolar / bipolar pacing
+#+ATTR_HTML: :width 600px
+   [[file:images/uni_bi.jpg]]
+
+
+** Sensing
+   - Watches for intrinsic activity
+   - Generally inhibits pacing (resets timer)
+   - For dual chamber pacemaker, sensing in atrium initiates pacing in ventricle after delay
+
+** Sensing
+   [[file:images/pace_sense_animation.gif]]
+
+** Sensing
+   [[file:images/sensing.png]]
+
+** Atrial pacing
+   [[file:images/aai.jpg]]
+
+** Ventricular pacing
+   [[file:images/rva.jpg]]
+
+** Pacing location - RVOT
+#+ATTR_HTML: :width 800px
+   [[file:images/rvot.jpg]]
+
+
+* Troubleshooting
+
+** Pacing spikes not seen
+   - Not pacing because intrinsic rate is faster than set lower rate
+   - Bipolar pacing - small spikes
+   - Lead malfunction
+   - Battery depletion
+   - Concern if rate is slow and patient is symptomatic
+
+** R wave in V1
+   - Normally LBBB pattern with RV pacing
+   - But sometimes an R wave may be seen in V1
+   - Can happen with LV pacing / septal perforation
+   - But more often occurs in presence of normal location
+
+* Example ECGs
+
+** History of pacemaker implanted 2 years back
+   [[file:images/no_pacing.jpg]]
+
+** Pacemaker implanted for complete heart block
+   [[file:images/ddd3.jpg]]
+
+** Pacemaker implanted 2 weeks back, recurrent syncope
+   [[file:images/v_non_capture.jpg]]
+
+** Summary
+   - Understanding basic functioning of pacemaker helps interpret ECGs
+   - Stepwise approach
+     - Identify device
+     - For each location - Pacing, sensing
+   - As in other situations, interpret in context of overall clinical findings
