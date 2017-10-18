@@ -1,0 +1,315 @@
+#+TITLE:     A middle aged female with PSVT
+#+AUTHOR:    Raja Selvaraj, JIPMER
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:nil reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil timestamp:nil
+#+OPTIONS: reveal_single_file:nil
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2
+#+REVEAL_TRANS: fade
+#+REVEAL_THEME: moon
+#+REVEAL_HLEVEL: 3
+#+REVEAL_PLUGINS: (notes)
+#+REVEAL_EXTRA_CSS: ./local.css
+#+REVEAL_MIN_SCALE: 1
+#+REVEAL_MAX_SCALE: 1
+
+#+REVEAL_EXTRA_JS: {src: 'file:///home/raja/bin/reveal.js/plugin/caliper/caliper.js'}, {src: 'file:///home/raja/bin/reveal.js/plugin/raja-custom/reveal_listener.js'}
+
+# At page speed of 100 mm, waveform printing from Bard gives 2500 ms inside the box
+
+
+* Learning
+  - Hear - Forget
+  - See - Remember (Visual)
+  - Do - Understand (active participation)
+  - Think - Learn (answer questions)
+#+BEGIN_NOTES
+I hear and I forget
+I see and I remember
+I do and I understand
+I think and I learn
+#+END_NOTES
+
+* Edgar Dale's cone of learning
+  [[file:images/edgardale.png]]
+#+BEGIN_NOTES
+Reading books helps you start off on a subject, but is least productive in long term
+Hearing someone teach is better, and it gets better when teaching is richly visual
+Unfortunately this is where it stops most of the time
+
+Active forms of learning are more productive. 
+Participation is important
+Our secret - teaching / giving a talk are good ways of learning
+Best - do it yourself
+
+Simulations serve the purpose. 
+Case in box - More useful than live cases
+Regular, day to day cases better than unusual / interesting cases
+#+END_NOTES
+
+* Socratic method
+  #+ATTR_HTML: :width 400px 
+  [[file:images/socrates.jpg]]
+#+BEGIN_NOTES
+The socratic method of teaching 
+Questioning to make the student think rather than telling them things
+#+END_NOTES
+
+* Presentation
+  - Middle aged female
+  - Episodic palpitations
+  - Documented narrow QRS tachycardia
+#+BEGIN_NOTES
+Given the demographics, most likely to be AVNRT.
+Next common would be AVRT followed by AT
+#+END_NOTES
+
+
+* Baseline measurements
+#+ATTR_HTML: :class caliper-image :img-length 2500
+#+ATTR_HTML: :height 600 :width 900
+ [[file:images/01_baseline.jpg]]
+#+BEGIN_NOTES
+Does this rule out presence of AP?
+Does this rule out presence of preexcitation?
+What next?
+#+END_NOTES
+
+
+* Ventricular pacing
+#+ATTR_HTML: :class caliper-image :img-length 2500
+#+ATTR_HTML: :height 600 :width 900
+ [[file:images/02_vpace.jpg]]
+#+BEGIN_NOTES
+Earliest atrial activation is in CS 7-8
+What could be the cause ? (CS catheter position, lpap, slow pathway)
+#+END_NOTES
+
+* Posterior AV nodal extensions
+#+ATTR_HTML: :width 400 px
+  [[file:images/posterior_extensions.png]]
+#+BEGIN_REFERENCE
+Inoue S, Becker AE. Posterior extensions of the human compact atrioventricular node: a neglected anatomic feature of potential clinical significance. Circulation. 1998;97(2):188–193
+#+END_REFERENCE
+#+BEGIN_NOTES
+Initially described by Tawara. 
+Anton Becker found leftward extensions in most of 21 hearts dissected
+#+END_NOTES
+
+
+* Ventricular extrastimulus
+#+ATTR_HTML: :class caliper-image :img-length 2500
+#+ATTR_HTML: :height 600 :width 900
+ [[file:images/03_v_extra.jpg]]
+#+BEGIN_NOTES
+Additional signal in the CS electrograms
+#+END_NOTES
+
+* Double potentials in the coronary sinus
+#+ATTR_HTML: :width 500 px
+  [[file:images/cs_dp_mechanism.png]]
+#+BEGIN_REFERENCE
+AKIYAMA et al. Coronary Sinus Recordings of Double Potentials Associated with Retrograde Conduction Through Left Atrioventricular Accessory Pathways. JCE 2004, 15: 1371–1376. doi:10.1046/j.1540-8167.2004.04422.x
+#+END_REFERENCE
+
+
+* Double potentials in the coronary sinus
+#+ATTR_HTML: :width 600 px
+[[file:images/cs_dp.png]]
+
+
+#+BEGIN_NOTES
+All patients have a left sided endocardial AP with LA to CS connection medially
+
+A. Lateral AP - atrial activation is dis to prox, cs is prox to dis
+B. posterolateral AP - atrial early at CS 4-5
+C. Posteroseptal AP - concordant activation
+#+END_NOTES
+
+* Atrial extrastimulus
+#+ATTR_HTML: :class caliper-image :img-length 2500
+#+ATTR_HTML: :height 600 :width 900
+ [[file:images/04_a_extra_tachy_induction.jpg]]
+#+BEGIN_NOTES
+Tachycardia induction with PR prolongation
+Tachycardia with short VA and central activation - what is first measurement?
+Anything to rule out AT ? (wobble, activation same as with RV pacing)
+What is best maneuver to perform here?
+#+END_NOTES
+
+* Ventricular burst pacing
+#+ATTR_HTML: :width 900
+ [[file:images/05_vop_termination.jpg]]
+#+BEGIN_NOTES
+Why VOP is best?
+Tachycardia terminates - now what? (look at onset of pacing, isoprenaline)
+#+END_NOTES
+
+* Ventricular overdrive - Beginning
+#+ATTR_HTML: :class caliper-image :img-length 2500
+#+ATTR_HTML: :height 600 :width 900
+ [[file:images/06_vop_onset.jpg]]
+#+BEGIN_NOTES
+What to look for? (A entrainment in transition zone? after how many beats? HH vs AA)
+#+END_NOTES
+
+* Ventricular extra
+#+ATTR_HTML: :class caliper-image :img-length 2500
+#+ATTR_HTML: :height 600 :width 900
+ [[file:images/07_v_extra_tachy.jpg]]
+#+BEGIN_NOTES
+Early PVC doesnt preexcite. 
+What is the interpretation - is a ap ruled out?
+Is this a His refractory PVC ? (How do you generally identify His refractoriness)
+#+END_NOTES
+
+* PVC by coupling interval
+#+ATTR_HTML: :width 500px
+  [[file:images/PVCs.jpg]]
+
+* Summarise so far
+  - Regular NQRST
+  - Central atrial activation, VA 70
+  - VOP terminates
+  - His refractory PVCs dont preexcite
+  - What next? 
+#+BEGIN_NOTES
+What can be checked in sinus rhythm?
+#+END_NOTES
+
+
+* Parahisian
+#+ATTR_HTML: :class caliper-image :img-length 2500
+#+ATTR_HTML: :height 600 :width 900
+  [[file:images/08_parahisian.jpg]]
+#+BEGIN_NOTES
+Parahisian - what is approach?
+  - Exclude direct atrial capture
+  - Is activation similar
+  - Is VA time similar
+What are the findings in this patient (SA difference of 10 ms)
+What is possible cause of difference ? (shorter SV time due to activation from HPS)
+Which is better to measure - SA / VA
+What difference expected for AV nodal conduction
+#+END_NOTES
+
+* Parahisian pacing in a Posteroseptal AP 
+  [[file:images/php.png]]
+#+BEGIN_REFERENCE
+Measurement of the ventriculoatrial interval from the coronary sinus during para-Hisian pacing may fail to distinguish ventriculoatrial nodal conduction from conduction over a septal accessory pathway. Iijima, Takafumi et al. Journal of Arrhythmia , Volume 31 , Issue 1 , 33 - 37
+#+END_REFERENCE
+
+* Ventricular overdrive Isoprenaline
+#+ATTR_HTML: :class caliper-image :img-length 2500
+#+ATTR_HTML: :height 600 :width 900
+  [[file:images/09_vop_iso.jpg]]
+#+BEGIN_NOTES
+Finally VOP with isoprenaline - tachycardia continues. What is approach?
+   - Confirm atrial overdrive
+   - identify last entrained A
+   - sequence
+   - PPI - TCL (correction)
+   - SA - VA
+#+END_NOTES
+
+* Where are we ?
+  - Parahisian confirms presence of concealed AP
+  - VOP confirms AVRT
+  - What approach to map?
+#+BEGIN_NOTES
+Concealed - so have to map early A
+Map in tachycardia if close to AV conduction
+Where to map? - septum from rt side?, within CS?, in LA?
+#+END_NOTES
+
+* Where do you want to map
+#+ATTR_HTML: :height 600 :width 900
+ [[file:images/03_v_extra.jpg]]
+
+
+* Delta VA
+  [[file:images/delta_VA.png]]
+#+BEGIN_REFERENCE
+Chiang CE, Chen SA, Tai CT, Wu TJ, Lee SH, Cheng CC, Chiou CW, Ueng KC, Wen
+ZC, Chang MS. Prediction of successful ablation site of concealed posteroseptal
+accessory pathways by a novel algorithm using baseline electrophysiological
+parameters: implication for an abbreviated ablation procedure. Circulation. 1996 
+Mar 1;93(5):982-91. PubMed PMID: 8598090.
+#+END_REFERENCE
+#+BEGIN_NOTES
+Difference between atrial activation in His and earliest CS electrogram can give a clue to location
+In Grp IA, successful ablation was in right posteroseptal region or within proximal CS
+In Grp IB, ablation was in left atrium endocardially
+#+END_NOTES
+
+* Sequence of potentials in CS
+  [[file:images/dp_sequence.png]]
+#+BEGIN_REFERENCE
+PAP, R., TRAYKOV, V. B., MAKAI, A., BENCSIK, G., FORSTER, T. and SÁGHY, L. (2008), Ablation of Posteroseptal and Left Posterior Accessory Pathways Guided by Left Atrium–Coronary Sinus Musculature Activation Sequence. Journal of Cardiovascular Electrophysiology, 19: 653–658. doi:10.1111/j.1540-8167.2008.01103.x
+#+END_REFERENCE
+#+BEGIN_NOTES
+Sometimes when LA and CS activation can be made out separately, their sequence can help
+In B, sequence in sharp-blunt indicating epicardial AP
+In C, sequence is blunt-sharp indicating endocardial AP
+#+END_NOTES
+
+* Where do you want to map
+#+ATTR_HTML: :height 600 :width 900
+ [[file:images/03_v_extra.jpg]]
+
+
+* CS-LV connections
+  - 480 patients with posteroseptal / left posterior APs
+  - CSAP in 171
+  - CS diverticulum in 36
+  - Fusiform enlargement of a tributary in 15
+  - Normal in others
+#+BEGIN_REFERENCE
+Coronary Sinus-Ventricular Accessory Connections Producing Posteroseptal and Left Posterior
+Accessory Pathways Incidence and Electrophysiological Identification.  Sun, Arruda, ... Jackman. Circulation. 2002;106:1362-1367
+#+END_REFERENCE
+
+* CSAP with normal CS
+    - MCV in 82%
+    - PCV in 11%
+    - Both in 5%
+    - Floor between both in 2%
+#+BEGIN_REFERENCE
+Coronary Sinus-Ventricular Accessory Connections Producing Posteroseptal and Left Posterior
+Accessory Pathways Incidence and Electrophysiological Identification.  Sun, Arruda, ... Jackman. Circulation. 2002;106:1362-1367
+#+END_REFERENCE
+
+* CS venogram
+   [[file:images/cs_venogram00001.jpg]]
+
+* Successful site
+   [[file:images/succ_site00001.jpg]]
+
+
+* Signal within MCV
+#+ATTR_HTML: :class caliper-image :img-length 2500
+#+ATTR_HTML: :height 600 :width 900
+   [[file:images/10_signal_mcv.jpg]]
+
+* Successful ablation
+#+ATTR_HTML: :class caliper-image :img-length 10000
+#+ATTR_HTML: :height 600 :width 900
+   [[file:images/11_succ_abl.jpg]]
+
+* Post ablation
+#+ATTR_HTML: :class caliper-image :img-length 2500
+#+ATTR_HTML: :height 600 :width 900
+   [[file:images/12_v_pace_post_abl.jpg]]
+#+BEGIN_NOTES
+VA dissociation with capture beats
+One beat wth LBBB - ? conductin with aberrancy, ? RVR
+#+END_NOTES
+
+* What did you learn today ?
+
+
+
+   
