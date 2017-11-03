@@ -1,0 +1,384 @@
+#+TITLE:     The Normal ECG
+#+AUTHOR:    Raja Selvaraj 
+#+DATE:      Additional Professor of Cardiology, JIPMER
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:nil reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil timestamp:nil
+#+OPTIONS: reveal_single_file:1
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: fade
+#+REVEAL_THEME: solarized
+#+REVEAL_HLEVEL: 2
+#+REVEAL_PLUGINS: (notes)
+#+REVEAL_EXTRA_CSS: ./local.css
+
+* Introduction and History
+** Introduction to the workshop
+   - ECG valuable diagnostic tool in a wide variety of situations
+   - Important skill to acquire during the training period
+   - Books / workshops / Online material serve as introduction / refresher
+   - Constant practice is a must
+
+** Workshop objectives
+   - Introduction to ECG - what it is, how to read, how to interpret
+   - Not comprehensive coverage of all aspects
+     - Congenital heart disease
+   - Try to cover aspects that are difficult to learn by other means
+
+** Objectives of this talk
+   - Genesis, recording and display of ECGs
+   - Normal waveforms and intervals
+   - Heart rate
+   - Axis
+
+** But first, a little history. Roughly how old is the clinical ECG ?
+   - A. 30 years
+   - B. 50 years
+   - C. 100 years
+   - D. 200 years
+
+** Centenary celebrated in 2002
+   #+ATTR_HTML: :width 700px
+   [[file:images/centenary.png]]
+
+# ** Display of heart's electrical activity recorded with a galvanometer
+#    1887 - British physiologist - Augustus Waller
+#    #+ATTR_HTML: :width 400px
+#    [[file:images/waller2.jpg]]
+
+# ** Waller's dog Jimmy
+#    #+ATTR_HTML: :width 800px
+#     [[file:images/waller_dog.jpg]]
+
+# ** 1890s - Einthoven watched Waller's demonstration
+#    #+ATTR_HTML: :width 600px
+#     [[file:images/einthoven.jpg]]
+
+# ** 1902 - Einthoven makes significant improvements
+#    - Develops the string galvanometer
+#    - Correction formulae
+#    - Publishes first ECG recorded with the string galvanometer
+
+#    #+BEGIN_NOTES
+#    Watched demonstration by Waller
+#    Improved recording apparatus
+#    Correction formulae
+#    #+END_NOTES
+
+** Einthoven
+   - 1902 - String galvanometer
+   - 1905 - Records 'telecardiograms' 
+   - Discusses commercial production
+   - Available commercially in 1908
+
+** ECG recording in Einthoven's time - We have progressed so much
+   #+ATTR_HTML: :width 500px
+   [[file:images/einthoven_recording.jpg]]
+
+** Or have we? - Recorded ECG
+    [[file:images/einthoven_ecg.jpg]]
+
+* Basic principles and recording
+
+** Activation wavefront and generation of electromagnetic force
+   #+BEGIN_NOTES
+   # - Resting polarized state
+   # - Depolarization front
+   # - Gradient between depolarized and polarized regions
+   #+END_NOTES
+   #+ATTR_HTML: :width 800px
+   [[file:images/ecg_gen.png]]
+
+** Genesis of deflections
+   #+ATTR_HTML: :width 800px
+   [[file:images/depolarisation_wave.png]]
+   #+BEGIN_NOTES
+   # - Force flowing towards positive electrode produces upward deflection
+   # - Away from positive electrode produces negative deflection
+   #+END_NOTES
+
+# ** Electrocardiographic anatomy - Two chambers
+#   #+ATTR_HTML: :width 600px
+#    [[file:images/two_chambers.png]]
+
+
+
+** Recording the deflections
+
+** ECG leads
+   - 12 conventional leads
+   - Frontal plane leads / limb leads
+   - Horizontal plane leads / precordial leads
+   - Bipolar leads - I, II, III
+   - Unipolar leads - aVR, aVL, aVF, V1-V6
+
+** Question - How many electrodes are used for recording the 12 leads?
+   - A. 12 electrodes
+   - B. 6 electrodes
+   - C. 10 electrodes
+
+** Electrode placement
+   #+ATTR_HTML: :width 400px
+   [[file:images/electrode_placement.jpg]]
+
+** Lead planes
+   #+ATTR_HTML: :width 800px
+   [[file:images/ecg_lead_planes.png]]
+
+** Frontal plane leads
+   #+ATTR_HTML: :width 800px
+   [[file:images/frontal_leads.jpg]]
+   # - Limb leads
+   #   - Frontal plane
+   #   - Bipolar limb leads
+   #   - Unipolar limb leads
+   #   - Augmentation
+   #   - aVR - cavity lead
+   # - Precordial leads
+   #   - Placement
+
+
+# ** Einthoven's triangle
+#    #+ATTR_HTML: :width 800px
+#    [[file:images/einthoven_triangle.jpg]]
+
+# ** Question - The electrodes in the triangle are equidistant because
+#      1. The ends of the limbs are equidistant from the heart
+#      2. The electrodes are placed at equal distance from heart
+#      3. Beyond a certain distance, an electrode is considered equidistant
+
+** Hexaxial reference
+   #+ATTR_HTML: :width 600px
+   [[file:images/frontal_plane_axis.jpg]]
+
+** Horizontal plane leads
+   #+ATTR_HTML: :width 800px
+   [[file:images/horizontal_leads.png]]
+
+# ** Recording - calibration / speed
+
+** Recording
+   #+ATTR_HTML: :width 600px
+   [[file:images/calibration.jpg]]
+
+# ** Filters
+#    [[file:images/filters.png]]
+#    # TODO: filters diagram
+#    # - High pass
+#    # - Low pass
+#    # - Notch
+
+* Normal waveforms
+
+** Activation pattern in atrium and ventricle
+   #+ATTR_HTML: :width 600px
+   [[file:images/av_activation.png]]
+   #+BEGIN_NOTES
+   #   - activated as a sheet (longitudinal and contiguous)
+   #   - no specialised conduction system
+   #   - milking action
+   #   - out of phase segments, easier to induce flutter / fib
+   #   - voltage reflects size
+   # - Ventricle
+   #   - activated across wall
+   #   - Specialised conduction system (transverse and near synchronous)
+   #+END_NOTES
+
+** Atrial activation
+   [[file:images/atrial_activation.jpg]]
+
+** Normal P wave
+   #+ATTR_HTML: :width 800px
+   [[file:images/p_wave.png]]
+
+** Normal P wave
+   - Axis - inferior and left
+   - Shape - smooth and rounded
+   - Amplitude - less than 2.5 mm (0.25 mV)
+   - Duration - less than 110 ms
+
+** Normal P wave
+   #+ATTR_HTML: :width 500px
+   [[file:images/atrial_activation_pwave.jpg]]
+
+
+** Ventricular activation
+   #+ATTR_HTML: :width 500px
+   [[file:images/ventricular_activation.png]]
+   #+BEGIN_NOTES
+     # - dominated by LV free wall and septum, RV free wall not significant
+     #  	- IVS left to right
+     #  	- Free wall activation - large right to left(LV) and smaller RV
+     # - all segments in phase - flutter or fibrillation difficult
+     # - voltage reflects thickness
+   #+END_NOTES
+
+** Normal QRS
+   #+ATTR_HTML: :width 500px
+   [[file:images/QRS_complex.jpg]]
+
+** Normal QRS
+   - Axis - left inferior, towards lead II
+   - Duration - usually less than 100 ms
+   - Shape - smooth, multiphasic, no notching
+   - Precordial progression
+
+** Terminology
+   #+ATTR_LaTeX: width=0.7\textwidth
+   [[file:images/qrs_terminology.png]]
+   # - Terminology 
+   #   - Q, R and S, R'
+   #   - upper case versus small
+
+** Normal QRS - Axis and progression
+   [[file:images/normal_qrs.jpg]]
+
+** Normal T wave
+   - Axis
+     - similar to QRS
+   - Shape - asymmetric limbs, proximal shallower, blunt apex
+
+** T wave
+   [[file:images/normal_qrs.jpg]]
+
+** U wave
+   - small rounded deflection after T wave
+   - same direction as T
+   - best seen V2-V4
+   - Genesis - purkinje fibers? / M cells ?
+
+** PR interval
+   - Normal 0.12 to 0.20 ms
+   - Represents impulse conduction time from sinus node to ventricle
+   [[file:images/P-R_interval.jpg]]
+
+** QT interval measurement
+   [[file:images/tangent_method.jpg]]
+   # - Tangent method
+   # - lead with q
+   # - correction
+
+** QT interval correction
+   - QT interval varies with heart rate
+   - Comparison with a normal needs correction for this variation
+   - Corrected QT = QT at heart rate 60 bpm
+   - Methods - Bazett, Fridericia, Framingham
+   - Estimation errors least with HR close to 60
+
+** Bazetts method
+   [[file:images/bazett.png]]
+
+* Heart rate and Electrical axis
+
+** Heart rate
+   - Important measurement from the ECG
+   - Bradycardia and tachycardia
+   - Constant practice
+
+** Deriving rate
+    - 300 / large squares
+    - 1500 / small squares
+    [[file:images/heart_rate_method.png]]
+
+** Heart rate ?
+   #+ATTR_HTML: :width 800px
+   [[file:images/heart_rate1.png]]
+
+** Heart rate ?
+   #+ATTR_HTML: :width 800px
+   [[file:images/heart_rate2.png]]
+
+** Heart rate ?
+   #+ATTR_HTML: :width 800px
+   [[file:images/heart_rate3.jpg]]
+    
+** Electrical axis
+
+** Concept of axis
+   [[file:images/axis_loop.png]]
+   # - Direction of the vector
+   # - Changes all the time
+   # - Dominant direction of the vectors
+   # - Mean frontal plane axis
+
+** Question - How many leads are required at minimum to determine frontal axis
+   1. One 
+   2. Two 
+   3. Three 
+   4. Six
+
+** Determine the axis
+
+** Determine the quadrant - Leads I and aVF
+   [[file:images/quadrants.png]]
+
+** Determining axis - perpendicular to most isoelectric lead
+   #+ATTR_HTML: :width 800px
+   [[file:images/lead_vectors.png]]
+
+** Examples
+
+** Axis
+   #+ATTR_HTML: :width 800px
+   [[file:images/axis0.jpg]]
+
+** Axis
+   #+ATTR_HTML: :width 800px
+   [[file:images/axis30.jpg]]
+
+** Axis
+   #+ATTR_HTML: :width 800px
+   [[file:images/axis75.jpeg]]
+
+** Axis
+   #+ATTR_HTML: :width 800px
+   [[file:images/axis150.jpeg]]
+
+** Axis
+   #+ATTR_HTML: :width 800px
+   [[file:images/axis-45.jpg]]
+
+* The Normal ECG
+
+** Reading an ECG
+   - Rhythm
+   - Rate
+   - P wave
+   - PR interval
+   - QRS width
+   - QRS axis
+   - Transition
+
+** ECG
+    [[file:images/normal_ecg.jpg]]
+# ** Sinus rhythm - P wave
+# ** Normal rate
+# ** QRS Axis
+# ** QRS-T angle
+# ** QRS duration
+#    - Usually less than 100 ms
+# ** QRS configuration
+#    - qR in lead I, resembles V6
+#    - 
+# ** QRS transition
+#    - rS in V1, qR in V6
+#    - normal transition in V3
+#    - 
+
+** Normal variants
+
+** Persistent juvenile pattern
+   [[file:images/persistent_juvenile.jpg]]
+
+** Early repolarization syndrome
+   [[file:images/erp.jpg]]
+
+** Summary
+   - ECG remains one of the most resilient investigations across time
+   - Knowing the basics of the genesis of the waveforms provides a better understanding of the abnormalities
+   - Like every other skill, reading ECGs comes and improves with regular practice
+    

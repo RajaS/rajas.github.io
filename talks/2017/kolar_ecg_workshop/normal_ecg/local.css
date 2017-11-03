@@ -1,0 +1,20 @@
+
+
+.reveal h2 {
+    font-size: 1.8em;
+    line-height: 1;
+    text-transform: none;
+}
+
+.reveal h3 {
+    text-transform: none;
+}
+
+  .reveal p {
+    text-align: center;
+  }
+
+  .reveal ol {
+      display: inline-block;
+      text-align: left;
+  }

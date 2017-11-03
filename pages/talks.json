@@ -1,0 +1,115 @@
+var data = {
+    talks: [
+
+	{'title':"Pacemaker Implant Procedure", 'date':"27-01-2017", 'details':"MEDPACE pacemaker course, Chennai",
+	 'slide_thumbnail':"/images/talks_title_slides/device_implant.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/medtronic_prep/implant/implant.html'},
+		  {'name':'Slides with notes', 'url':'/talks/2017/medtronic_prep/implant/implant_with_notes.html'}],
+	 'tags':[{'name':"Device implant"}, {'name':'Postgraduates'}, {'name':'Cardiologists'}]},
+
+	{'title':"Pacemaker Troubleshooting", 'date':"27-01-2017", 'details':"MEDPACE pacemaker course, Chennai",
+	 'slide_thumbnail':"/images/talks_title_slides/troubleshooting.png",
+	 'links':[{'name':'Slides (pdf)', 'url':'/talks/2017/medtronic_prep/troubleshooting/presentation.pdf'}],
+	 'tags':[{'name':"Device implant"}, {'name':'Postgraduates'}]},	
+
+	{'title':"Approach to Narrow QRS tachy in the EP lab", 'date':"15-04-2017", 'details':"Basic Electrophysiology and Pacing, CARE Hospital, Hyderabad",
+	 'slide_thumbnail':"/images/talks_title_slides/nqrst.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/care_basic_ep/nqrst_ep/nqrst.html'}],
+	 'tags':[{'name':"Interventional EP"}, {'name':'Postgraduates'}]},
+
+	{'title':"Basic Principles of Entrainment", 'date':"15-04-2017", 'details':"Basic Electrophysiology and Pacing, CARE Hospital, Hyderabad",
+	 'slide_thumbnail':"/images/talks_title_slides/entrainment.png",
+	 'links':[{'name':'Slides (pdf)', 'url':'/talks/2017/care_basic_ep/entrainment/entrainment.pdf'}],
+	 'tags':[{'name':"Interventional EP"}, {'name':'Postgraduates'}]},	
+	
+	
+	{'title':"My Approach to Post MI VT", 'date':"27-05-2017", 'details':"Device Summit, Chennai",
+	 'slide_thumbnail': "/images/talks_title_slides/post_mi_vt.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/device_summit_apr2017/post_mi_approach.html'},
+		  {'name':'Slides with notes', 'url':'/talks/2017/device_summit_apr2017/post_mi_approach_with_notes.html'}],
+	 'tags':[{'name':"Non interventional EP"}, {'name':'Postgraduates'}]},
+	
+	{'title':"Tachycardiomyopathy - Mechanism and Management", 'date':"27-05-2017", 'details':"TN EPIC, Chennai",
+	 'slide_thumbnail':"/images/talks_title_slides/tic.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/tnepicon/tic/tic.html'},
+		  {'name':'Slides with notes', 'url':'/talks/2017/tnepicon/tic/tic_with_notes.html'}],
+	 'tags':[{'name':"Non interventional EP"}, {'name':'Postgraduates'}]},
+
+	{'title':"Indications for ICD therapy", 'date':"27-05-2017", 'details':"TN EPIC, Chennai",
+	 'slide_thumbnail':"/images/talks_title_slides/icd_indications.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/tnepicon/icd_indications/icd_indications.html'},
+		  {'name':'Slides with notes', 'url':'/talks/2017/tnepicon/icd_indications/icd_indications_with_notes.html'}],
+	 'tags':[{'name':"Device implant"}, {'name':'Postgraduates'}]},
+
+	{'title':"Interpreting the Pacemaker ECG", 'date':"09-07-2017", 'details':"ECG Update, Madurai",
+	 'slide_thumbnail':"/images/talks_title_slides/pacemaker_ecg.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/madurai_ISE/pacemaker_ecg/pacemaker_ecg.html'},
+		  {'name':'Slides with notes', 'url':'/talks/2017/madurai_ISE/pacemaker_ecg/pacemaker_ecg_with_notes.html'}],
+	 'tags':[{'name':"Device implant"}, {'name':'Postgraduates'}]},
+
+	{'title':"WPW syndrome", 'date':"09-07-2017", 'details':"ECG Update, Madurai",
+	 'slide_thumbnail':"/images/talks_title_slides/wpw.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/madurai_ISE/wpw_syndrome/wpw.html'},
+		  {'name':'Slides with notes', 'url':'/talks/2017/madurai_ISE/wpw_syndrome/wpw_with_notes.html'}],
+	 'tags':[{'name':"Non interventional EP"}, {'name':'Postgraduates'}]},
+
+
+	{'title':"Supraventricular Tachycardia - Pacing Maneuvers", 'date':"04-08-2017", 'details':"Cardiac Electrophysiology Workshop, Madras Medical Mission, Chennai",
+	 'slide_thumbnail':"/images/talks_title_slides/nqrst.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/mmm_workshop/nqrst/nqrst.html'}],
+	 'tags':[{'name':"Interventional EP"}, {'name':'Postgraduates'}]},
+
+	{'title':"Bradyarrhythmias", 'date':"06-08-2017", 'details':"Annual Electrocardiology Course, Madras Medical Mission, Chennai",
+	 'slide_thumbnail':"/images/talks_title_slides/brady.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/mmm_workshop/brady/arrhythmias.html'}],
+	 'tags':[{'name':"Non interventional EP"}, {'name':'Undergraduates'}]},
+
+	
+	{'title':"Left lateral pathway ablation - How I do it", 'date':"19-08-2017", 'details':"Advanced Electrophysiology Workshop,Hyderabad",
+	 'slide_thumbnail':"/images/talks_title_slides/llap.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/hyd_arrhythmia_workshop/llap_ablation/llap.html'},
+		  {'name':'Slides with notes', 'url':'/talks/2017/hyd_arrhythmia_workshop/llap_ablation/llap_with_notes.html'}],
+	 'tags':[{'name':"Interventional EP"}, {'name':'Electrophysiologists'}]},
+
+	{'title':"Sudden Cardiac Death - In search of an electrical signature", 'date':"15-09-2017", 'details':"Material Sciences Group, IGCAR, Kalpakkam",
+	 'slide_thumbnail':"/images/talks_title_slides/scd.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/igcar/sudden_death.html'}],
+	 'tags':[{'name':"Non interventional EP"}, {'name':''}]},
+
+	{'title':"Scar VT ablation - Principles, techniques and strategies", 'date':"27-09-2017", 'details':"Residents teaching, JIPMER, Puducherry",
+	 'slide_thumbnail':"/images/talks_title_slides/scar_vt.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/scar_vt/ablation.html'}],
+	 'tags':[{'name':"Interventional EP"}, {'name':'Postgraduates'}]},
+	
+	{'title':"Identifying the right patients who benefit from ICD", 'date':"01-10-2017", 'details':"Global Cardio Diabetes Conference, Chennai",
+	 'slide_thumbnail':"/images/talks_title_slides/gcdc_icd.png",
+	 'links':[{'name':'Slides (pdf)', 'url':'/talks/2017/gcdc/icd.pdf'}],
+	 'tags':[{'name':"Device implant"}, {'name':'Physicians'}]},	
+	
+	{'title':"The normal ECG", 'date':"05-10-2017", 'details':"ECG workshop, Kolar",
+	 'slide_thumbnail':"/images/talks_title_slides/normal_ecg.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/kolar_ecg_workshop/normal_ecg/normal.html'}],
+	 'tags':[{'name':"Non interventional EP"}, {'name':'Undergraduates'}]},
+
+	{'title':"Arrhythmias", 'date':"05-10-2017", 'details':"ECG workshop, Kolar",
+	 'slide_thumbnail':"/images/talks_title_slides/arrhythmias.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/kolar_ecg_workshop/arrhythmias/arrhythmias.html'},
+		  {'name':'Slides with notes', 'url':'/talks/2017/kolar_ecg_workshop/arrhythmias/arrhythmias_with_notes.html'}],
+	 'tags':[{'name':"Non interventional EP"}, {'name':'Undergraduates'}]},
+
+	{'title':"A young female with SVT", 'date':"19-10-2017", 'details':"Teleconference with CMC, Vellore",
+	 'slide_thumbnail':"/images/talks_title_slides/case.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2017/cmc_teleconference/case.html'},
+		  {'name':'Slides with notes', 'url':'/talks/2017/cmc_teleconference/case_with_notes.html'}],
+	 'tags':[{'name':"Interventional EP"}, {'name':'Postgraduates'}]},
+	
+	{'title':"A deadly mixture", 'date':"28-10-2017", 'details':"Indian Heart Rhythm Society Annual Conference, Ahmedabad",
+	 'slide_thumbnail':"/images/talks_title_slides/deadly.png",
+	 'links':[{'name':'Slides (pdf)', 'url':'/talks/2017/ihrs/laa_ap.pdf'}],
+	 'tags':[{'name':"Interventional EP"}, {'name':'Electrophysiologists'}]},
+	
+	
+
+	
+    ]
+};

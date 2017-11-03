@@ -1,0 +1,378 @@
+#+TITLE:     Supraventricular Tachycardia
+#+AUTHOR:    Raja Selvaraj
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:nil reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil timestamp:nil
+#+OPTIONS: reveal_single_file:1
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 1
+#+REVEAL_MAX_SCALE: 1
+#+REVEAL_TRANS: fade
+#+REVEAL_THEME: sky
+#+REVEAL_HLEVEL: 2
+#+REVEAL_PLUGINS: (notes)
+#+REVEAL_EXTRA_CSS: ./local.css
+
+
+# MMM, August 2017
+
+* Part I - Baseline evaluation (before inducing tachycardia)
+
+** Narrow QRS tachycardia
+   - Regular
+   - Rate >= 100
+   - QRSd <= 120
+   - AT, AVNRT, orthodromic AVRT
+
+** History
+   - Age (at onset)
+   - Sex
+   - Neck pulsations
+   - Onset / offset
+
+** ECG
+   - Long RP / Short RP
+   - P wave axis
+   - AV ratio
+   - ST depression
+   - QRS alternans
+
+** EP study
+   - Baseline measurements
+   - Ventricular burst pacing
+   - Ventricular extrastimuli
+   - Atrial burst pacing
+   - Atrial extrastimuli
+
+** Ventricular pacing
+   - Absent VA conduction
+   - Eccentric atrial activation
+   - Central atrial activation
+
+** Atrial activation
+   [[file:images/central.png]]
+
+** VA conduction - Nodal conduction
+   - Decremental
+   - VA dependent on VH
+   - Blocks with adenosine
+   - VA time reduces with direct His capture
+
+** VA and VH
+   [[file:images/ccentral_vh_prolong.jpg]]
+
+** Parahisian pacing
+   - Somewhat difficult to perform
+   - Often difficult to interpret
+   - Still very useful sometimes
+
+** Parahisian pacing - setting up
+   - His catheter, slightly pushed in (small A)
+   - Start with low output and increase gradually
+   - Watch QRS morphology for intermittent His capture
+
+** Parahisian pacing - interpretation
+   - His capture - narrower QRS, His not seen, RVA early
+   - Beware of atrial capture
+   - Beware of pure His capture 
+     - Narrower QRS
+     - Isoelectric interval from pacing spike to QRS
+
+** Parahisian pacing - interpretation
+   - Identify beats with and without His capture
+   - Look at atrial activation sequence
+   - Measure VA interval    
+
+** Parahisian pacing - with His capture
+   - Nodal conduction - same sequence, shorter VA
+   - AP conduction - same sequence, same VA
+   - Mixed response - different sequence, shorter VA
+
+** Parahisian pacing
+   [[file:images/parahisian_explanation.jpg]]
+
+** Parahisian
+   [[file:images/parahisian.jpg]]
+
+** Parahisian
+   [[file:images/parahisian_latha_2013-12.jpg]]
+
+** Atrial pacing
+   - Latent preexcitation
+   - Dual AV nodal physiology
+     - PR > RR
+     - AH jump
+
+** PR more than RR
+   [[file:images/pr_more_rr2.jpg]]
+
+** AH jump - 600/430
+   [[file:images/pre_RA600430.jpg]]
+   
+** AH jump - 600/420
+   [[file:images/pre_RA600420.jpg]]
+
+** AH jump - 600/410
+   [[file:images/pre_RA600410.jpg]]
+
+** Atrial extrastimulus - Atrioventricular AP
+   [[file:images/atrio_vent_pac.jpg]]
+
+** Atrial extrastimulus - Atriofascicular AP
+   [[file:images/atrio_fasc_pac.png]]
+   
+** Atrial extrastimulus - Fasciculoventricular AP 
+   [[file:images/fasciculo_vent_pac.jpg]]
+
+** Other maneuvers
+** Response to adenosine
+#+ATTR_HTML: :width 800px
+    [[file:images/adenosine_post_abl_ramesh_2013-12.jpg]]
+# *** 
+#     [[file:images/pac_mahaim.jpg]]
+
+** Differential pacing
+   - VA interval during pacing from apex and base
+   - Shorter from apex for nodal conduction
+   - Shorter from base for AP conduction
+** RV apex pacing
+#+ATTR_HTML: :width 800px
+   [[file:images/rv_apex_va.jpg]]
+** RV base pacing
+#+ATTR_HTML: :width 800px
+   [[file:images/rv_base_va.jpg]]
+
+* Part II - Evaluation of tachycardia
+
+** Regular narrow QRS tachycardia
+   - AVNRT
+   - Orthodromic AVRT
+   - Atrial tachycardia
+
+** Tachycardia induction
+   - Chamber from which induced
+   - Induction dependent on critical AH prolongation
+   - Induction dependent on antegrade AP conduction block
+
+** Regular narrow QRS tachycardia
+   - A/V ratio
+   - Atrial activation
+   - VA time
+   - Ventricular overdrive pacing
+
+** Narrow QRS tachycardia, 1:1 VA, eccentric atrial activation
+#+ATTR_HTML: :width 800px
+   [[file:images/preexc_ort.jpg]]
+
+** Narrow QRS tachycardia, 1:1 VA, central atrial activation, very short VA
+#+ATTR_HTML: :width 800px
+   [[file:images/typical_avnrt.jpg]]
+
+** Narrow QRS tachycardia, 1:1 VA, central atrial activation, VA > 70 ms
+#+ATTR_HTML: :width 800px
+   [[file:images/svt.jpg]]
+
+** SVT
+   [[file:images/svt.jpg]]
+
+** Differentiating features
+#+ATTR_HTML: :width 800px
+   [[file:images/essential_parts.gif]]
+
+** Differentiating features
+   - Chamber essential to circuit
+   - Focal / reentry
+   - Extranodal pathway
+   - VA linking
+   - Distance from RV apex
+
+** Sequential vs simultaneous activation
+#+ATTR_HTML: :width 800px
+[[file:images/seq_parallel.jpg]]
+
+** RV overdrive pacing - most useful maneuver
+   - Easy to perform and interpret
+   - Can distinguish AT from AVNRT / AVRT (VAAV versus VAV)
+   - Can distinguish between AVNRT / AVRT (cPPI-TCL, SA-VA)
+   - Onset of entrainment can provide clues
+   - Can help even if not entrained !
+
+** Setting up
+   - Burst pacing from right ventricle - apex / base
+   - Sync on
+   - Tachycardia CL - 30 ms
+   - Pace until atrium entrained
+   - Stop pacing
+
+** What to look for ?
+   - Don't 'eyeball'
+   - Does tachycardia continue ?
+   - Was the atrium entrained ?
+   - Which is the last entrained A ?
+   - Sequence - VAV or VAAV
+
+** What to look for ?
+   - corrected PPI - TCL
+   - SA - VA
+   - Is there fusion during entrainment ?
+   - Beginning of entrainment - A or His ?
+   - How many beats to entrain ?
+
+** RV pacing in narrow QRS tachycardia - Rule out (or in) AT
+#+ATTR_HTML: :width 800px
+   [[file:images/vav.jpg]]
+
+** RV pacing in narrow QRS tachycardia - Rule out (or in) AT
+#+ATTR_HTML: :width 800px
+   [[file:images/vav_measurements_atrium_entrain.jpg]]
+
+** RV pacing in narrow QRS tachycardia. 
+   [[file:images/pseudoVAAV.png]]
+
+** Why all this fuss about measurement ?
+   [[file:images/pseudo_vaav_measurements.jpg]]
+
+** RV pacing in AT - VAAV
+#+ATTR_HTML: :width 800px
+   [[file:images/VAAV.jpg]]
+
+** RV pacing in narrow QRS tachycardia - AVNRT / AVRT
+#+ATTR_HTML: :width 800px
+   [[file:images/vav_measurements_ppi.jpg]]
+
+** SA / VA intervals
+#+ATTR_HTML: :width 600px
+    [[file:images/sa_va.jpg]]
+
+** Fusion during entrainment ?
+#+ATTR_HTML: :width 800px
+   [[file:images/fusion.jpg]]
+
+** Entrainment
+    [[file:images/VOP_entrainment.jpg]]
+
+** Beginning of entrainment can give a clue
+   [[file:images/entrainment_onset.jpg]]
+    - Atrial acceleration in transition zone
+    - A entrainment before H entrainment
+
+** Could not entrain - useful information ?
+#+ATTR_HTML: :width 800px
+   [[file:images/av_dissociation.jpg]]
+
+** Summary
+   - VAAV identifies AT, VAV rules out
+   - SA - VA and PPI - TCL are longer for AVNRT
+   - Can use basal pacing if responses are equivocal
+   - A entrained earlier for AVRT, entrained before His
+
+** His refractory PVC
+   - Little more difficult to perform and interpret
+   - Very useful maneuver
+   - Especially differentiate septal AP from AVNRT
+
+** His refractory PVC - setting up
+   - R synchronised single extrastimuli
+   - Check that sync is working
+   - Start 30 ms less than RR
+   - Decrement by 10 ms
+   - Continue until refractoriness or tachycardia termination
+
+** His refractory PVC - measurement and interpretation
+   - Confirm cycle length is stable
+   - Measure AA around each PVC to find longest CI at which PVC preexcites A
+   - Decide if His is refractory at this time
+
+** His refractory PVCs - responses
+   - Advance atrial activation without change in sequence
+   - Delay atrial activation without change in sequence
+   - Terminate tachycardia without conduction to atrium
+   - Does not alter atrial activation
+
+** PVC during tachycardia
+   [[file:images/his_pvc.jpg]]
+
+** PVC terminates tachycardia
+    [[file:images/his_ref_pvc.jpg]]
+# *** 
+#     [[file:images/pvc_terminates.png]]
+** Other clues during narrow QRS tachycardia
+   - VA unlinking - spontaneous or after atrial burst
+   - Cycle length and VA changes with bundle branch block
+   - Spontaneous termination
+
+** Spontaneous termination
+   [[file:images/spont_term.jpg]]
+
+** Bundle branch block
+   [[file:images/lbbb_narrow.jpg]]
+
+** Bundle branch block
+   [[file:images/lbbb_narrow_measurements.jpg]]
+
+** Bundle branch block
+   [[file:images/coumel.jpg]]
+
+# ** Decremental conduction
+#    - Classical property of nodal conduction
+#    - Can also be seen with AP
+#    - How to differentiate
+
+# ** RV 500/300 ms
+# #+ATTR_HTML: :width 800px
+#    [[file:images/rv500_300.jpg]]
+# ** RV 500/280 ms
+# #+ATTR_HTML: :width 800px
+#    [[file:images/rv500_280.jpg]]
+# ** RV 500/260 ms
+# #+ATTR_HTML: :width 800px
+#    [[file:images/rv500_260.jpg]]
+
+# ** Parahisian pacing
+#    [[file:images/parahisian_nodal.jpg]]
+** Parahisian
+#+ATTR_HTML: :width 800px
+   [[file:images/parahisian.jpg]]
+** Parahisian
+    [[file:images/parahisian_latha_2013-12.jpg]]
+# *** 
+#     [[file:images/parahisian_post1.jpg]]
+# ** After ablation of posteroseptal AP
+#     [[file:images/parahisian_post_abl_psap.jpg]]
+# *** 
+#     [[file:images/parahisian_post (copy).jpg]]
+** Pre-ablation
+   [[file:images/parahisian_pre.jpg]]
+** Post ablation
+#+ATTR_HTML: :width 800px
+    [[file:images/parahisian_post.jpg]]
+# *** 
+#     [[file:images/parahisian_pre1.jpg]]
+# *** 
+#     [[file:images/parahisian_pre (copy).jpg]]
+# *** Para hisian - what is the interpretation
+#     [[file:images/parahisian_pure_his_sasikumar_2012-07.jpg]]
+
+
+** Summary
+   - Understanding of basic electrophysiology of arrhythmias
+   - Practice is important
+   - Although not required at most time, will prove critical in select cases
+
+
+# ** In closing ...
+#    [[file:images/summary_info.jpg]]
+
+
+# apace_wct.jpg
+# coumel.jpg
+
+# summary_info.jpg
+# tachy_induction.jpg
+# tachy_induction_no_CS.jpg
+# tachy_init_coumel.jpg
+# term_A.jpg
+
+

@@ -1,0 +1,367 @@
+#+Title: Arrhythmias
+#+Author: Raja Selvaraj
+#+Email: Additional Professor, Cardiology
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:nil reveal_rolling_links:t reveal_keyboard:t reveal_overview:nil num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil timestamp:nil
+#+OPTIONS: reveal_single_file:1
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: fade
+#+REVEAL_THEME: moon
+#+REVEAL_HLEVEL: 2
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Org-Reveal Introduction.">
+#+REVEAL_PLUGINS: (highlight markdown notes)
+#+REVEAL_EXTRA_CSS: ./local.css
+
+* Organization of this talk
+  - Normal rhythm
+  - Arrhythmias - Introduction
+  - Case illustrations
+  - Management - interspersed
+
+
+# * What do you know - What is the abnormality?
+#   [[./images/challenge_2.jpg]]
+#   1. Complete heart block
+#   2. First degree AV block
+#   3. Second degree AV block
+#   4. Normal AV conduction
+
+# * What do you know - what is the arrhythmia?
+#   [[./images/complete_av_block.png]]
+#   1. Complete heart block
+#   2. First degree AV block
+#   3. Second degree AV block
+#   4. Normal AV conduction
+
+# * What do you know 
+#   How do you identify first degree SA block on the ECG ?
+#   1. Progressive prolongation of PR interval
+#   2. Progressive shortening of PP interval
+#   3. Prolonged PR interval
+#   4. None of the above
+
+# * What do you know - How do you treat this person?
+#   [[./images/artifact.jpg]]
+#   1. Start antiarrhythmic drugs
+#   2. DC Cardioversion
+#   3. Call senior physician
+#   4. Do nothing
+
+* Arrhythmias
+  - Lack of rhythm
+  - Not normal rhythm 
+
+* Normal rhythm
+  - Origin
+  - Rate
+  - AV conduction
+
+# * Normal rhythm
+#   [[./images/conduction_system.jpg]]
+
+* Normal rhythm
+#+ATTR_HTML: :width 800px
+  [[./images/normal.gif]]
+
+
+* Arrhythmias - Classification
+  - Bradyarrhythmia
+  - Tachyarrhythmia
+
+* Bradyarrhythmias
+  - Sinus node disease (too few P waves)
+  - Atrioventricular block (too few QRS, P > QRS)
+
+* Sinus node disease 
+  [[./images/sa_junction.png]]
+
+* Sinus node disease 
+  - Sinus arrest
+  - Sinus bradycardia
+  - Sino-atrial block
+    - Second degree type I
+    - Second degree type II
+
+* Atrioventricular block
+  - First degree
+  - Second degree type I
+  - Second degree type II
+  - Third degree
+
+* Tachyarrhythmias
+  - Supraventricular tachycardia
+  - Ventricular tachycardia
+
+* Supraventricular tachycardia
+  - Sinus tachycardia
+  - Atrial tachycardia
+  - Atrial flutter
+  - Atrioventricular nodal reentrant tachycardia
+  - Atrioventricular reentrant tachycardia
+  - Atrial fibrillation
+
+* Ventricular tachycardia
+  - Premature ventricular complexes
+  - Ventricular tachycardia
+  - Ventricular fibrillation
+
+* ECG display
+  [[./images/ecg_display.png]]
+
+* 30 year old male - ECG done for pre-employment check up
+  [[./images/normal_sinus.jpg]]
+
+# * P wave axis
+#   [[./images/normal_p_axis.jpg]]
+
+
+# * Right bundle branch block
+#   [[./images/rbbb.jpg]]
+
+# * Left bundle branch block
+#   [[./images/lbbb.jpg]]
+
+
+* 60 year old female, complains of presyncopal episodes
+ # Sinus bradycardia
+    [[./images/sinus_bradycardia.jpg]]
+
+* Bradycardia - symptoms
+    - Giddiness
+    - Syncope
+    - Fatigue
+    - Breathlessness
+    - Death
+
+# * Young male, asymptomatic 
+#    #+ATTR_HTML: :width 800px
+# # *   Sinoatrial block
+#     [[./images/sablock.jpg]]
+
+# * SA block
+#   laddergram
+
+*  Management of sinus bradycardia
+    - Rule out underlying cause
+    - Drugs ?RR
+    - Physiological ?
+    - Pacemaker implantation
+
+* Drugs
+    - Atropine
+    - Isoprenaline
+    - Orciprenaline
+    - Long acting theophylline
+
+* 55 year old male, asymptomatic, referred for abnormal ECG 
+ # First degree AV block
+    [[./images/first_degree_av_block.jpg]]
+  
+* AV Conduction block - degrees
+  - First: All P waves conducted
+  - Second: Some P waves conducted
+  - Third: No P waves conducted
+
+* Young male, found to have irregular pulse 
+ # Second degree type I AV block
+    [[./images/second_degree_type1_av_block.jpg]]
+
+
+* Second degree AV block - Mobitz types
+  - Type 1 - Progressive PR prolongation before block
+  - Type 2 - Fixed PR interval of conducted beats
+
+
+* PR and RR intervals in Wenckebach block
+  [[./images/second_degree_type1_av_block.jpg]]
+
+
+*  Middle aged female with syncope
+   #+ATTR_HTML: :width 800px
+    [[./images/second_degree_type2_block.png]]
+
+* Mobitz types - implications
+  - Type 1
+    - Block above His
+    - Usually benign
+  - Type 2
+    - Block at or below His
+    - Usually needs treatment
+
+* Atrioventricular conduction system
+  [[./images/av_conduction.gif]]
+
+
+*  70 year old male, fainted at home
+    [[./images/chb.jpg]]
+
+* Pacing - temporary
+  [[./images/tpi.jpg]]
+
+* Pacing - permanent
+   #+ATTR_HTML: :width 600px
+  [[./images/ppi.jpg]]
+
+*  Pacing for CHB
+   #+ATTR_HTML: :width 800px
+    [[./images/pacing_chb.jpg]]
+
+* Clinical examination in bradycardia
+  How can you differentiate sinus dysfunction from atrioventricular block?
+  1. Pulse rate
+  2. Second heart sound
+  3. JVP
+  
+
+* Rapid pulse in pre-operative patient  
+ # Sinus tachycardia
+    [[./images/sinus_tachy.jpg]]
+
+* Sinus tachycardia
+  - Fever
+  - Stress
+  - Hypovolemia
+  - Hyperthyroidism
+  - Inappropriate sinus tachycardia
+    
+* 10 year old boy referred from pediatric OPD for irregular pulse 
+   #+ATTR_HTML: :width 800px
+ # PACs
+    [[./images/pac.png]]
+
+* Premature atrial beats
+  - Benign in absence of structural heart disease
+  - "Missed beats"
+  - Rarely need treatment
+
+* 65 year old female with COPD and palpitations
+ # Atrial tachycardia
+    [[./images/at.jpg]]
+
+* Vagal maneuvers in narrow QRS tachycardia
+  - Carotid sinus massage
+  - Straining / gag reflex
+  - Eyeball pressure
+  - Diving reflex
+
+* Adenosine
+   #+ATTR_HTML: :width 400px
+  [[./images/adenosine.jpg]]
+
+* Atrial tachycardia
+  What will be the response to adenosine?
+  1. Terminates tachycardia
+  2. Tachycardia continues with AV block
+  3. Does nothing
+
+
+*  40 year old with palpitations
+ # Atrial flutter
+    [[./images/atrial_flutter2.png]]
+
+*  After adenosine bolus
+ # Atrial flutter
+    [[./images/atrial_flutter2_adenosine.png]]
+
+*  Saw tooth flutter waves
+ # Atrial flutter
+    [[./images/atrial_flutter.jpg]]
+
+
+* Atrial flutter
+  - Classic example of macroreentry
+  - Can be treated with AV blocking drugs
+  - Rhythm control by ablation
+
+* Macroreentry
+  [[./images/flutter_circuit.jpg]]
+
+
+* Middle aged female with palpitations
+ # AVNRT / avrt
+    [[./images/psvt.jpg]]
+
+* PSVT
+  - Paroxysmal supraventricular tachycardia
+  - Reentry using two pathways in AV node or AV node and AP
+  - Response to adenosine?
+
+* Reentry
+  [[./images/reentry.jpg]]
+
+* ECG after termination of tachycardia
+ # WPW
+    [[./images/wpw.png]]
+
+* WPW syndrome
+   #+ATTR_HTML: :width 800px
+  [[./images/wpw_schematic.jpg]]
+
+
+* Radiofrequency ablation
+  [[./images/rf_ablation.jpg]]
+
+# * Radiofrequency ablation
+#   [[./images/rf_ablation2.jpg]]
+# # TODO: make image smaller  
+
+# # *  
+# #  # Orthodromic AVRT
+# #     [[./images/avrt.jpg]]
+
+* Elderly lady with dizziness 
+ # Atrial fibrillation
+    [[./images/af.jpg]]
+
+* Atrial fibrillation
+  - Commonest arrhythmia
+  - With or without structural heart disease
+  - Loss of atrial pump function
+  - High ventricular rate
+  - Thromboembolism
+  - Rate versus rhythm control
+
+* Middle aged male with previous myocardial infarction
+# *   VPCs
+    [[./images/pvc.png]]
+
+* Palpitations and presyncope 
+ # Ventricular tachycardia
+    [[./images/ventricular_tachycardia.jpg]]
+
+* Ventricular arrhythmias
+  - Idiopathic
+  - Structural heart disease
+  - Risk of sudden death
+  - Drugs
+    - Lignocaine
+    - Amiodarone
+
+* Young female with recurrent syncope
+    [[./images/torsades.jpg]]
+
+* Patient in CCCU
+ # Ventricular fibrillation
+    [[./images/ventricular_fibrillation.png]]
+    Treatment ?
+
+* Defibrillator
+   #+ATTR_HTML: :width 800px
+  [[./images/defibrillator.jpg]]
+
+* Implantable defibrillator
+   #+ATTR_HTML: :width 800px
+  [[./images/icd.jpg]]
+
+* Summary
+  - Abnormalities of rhythm are an important class of heart disorders
+  - May present as slow rate or rapid rate
+  - Can be life threatening in some patients
+  - Wide variability in presentation, evaluation and management
+  - Repetitive exposure to ECGs, management of individual patients
+

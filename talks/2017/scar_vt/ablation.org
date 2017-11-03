@@ -1,0 +1,263 @@
+#+TITLE:     Ischemic VT ablation - Principles, Techniques and Strategies
+#+AUTHOR:    Raja Selvaraj
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:nil reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil timestamp:nil
+#+OPTIONS: reveal_single_file:1
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2
+#+REVEAL_TRANS: fade
+#+REVEAL_THEME: moon
+#+REVEAL_HLEVEL: 2
+#+REVEAL_PLUGINS: (notes)
+#+REVEAL_EXTRA_CSS: ./local.css
+
+
+* Introduction
+
+** Definitions
+   - VT - Three or more consecutive beats originating from ventricles at rate > 100 / min
+   - Sustained VT - VT lasting > 30 seconds or requires intervention for termination
+   - VT storm - Three of more separate episodes of VT within 24 h, each requiring intervention
+
+** CARTO
+   [[file:images/carto1.jpg]]
+
+
+** Focal
+   - Increased automaticity
+   - Triggered activity
+   - Micro-reentry
+
+** Large circuits
+   - Macro-reentry
+
+** Focal 
+   [[file:images/focal_vt.jpg]]
+
+** Large reentry
+#+ATTR_HTML: :width 600px
+   [[file:images/carto_reentry_a.jpg]]
+
+** Large reentry
+#+ATTR_HTML: :width 600px
+   [[file:images/carto_reentry_b.jpg]]
+
+** Mechanisms in ischemic VT
+   - Usually large reentry circuits
+   - Can sometimes be focal
+     - Small reentry circuits
+     - Epicardial reentry with focal endocardial breakthrough
+
+** And we know its reentry because of
+   - Initiation and termination with programmed stimulation
+   - Entrainment and resetting
+   - Continuous electrical activity in diastole
+
+** Reentry in ischemic VT
+#+ATTR_HTML: :width 700px
+   [[file:images/scar_vt.gif]]
+
+* Abnormal substrates in post MI patients
+
+** Substrate for reentry
+   - Surviving subendocardial muscle bundles - slow conduction
+   - Side to side connections with zig zag pattern of conduction
+   - Areas of conduction block
+
+** Substrate
+#+ATTR_HTML: :width 400px
+   [[file:images/fractionated.png]]
+
+#+begin_reference
+de Bakker JM et al. Reentry as a cause of ventricular tachycardia in patients with chronic ischemic heart disease: electrophysiologic and anatomic correlation. Circulation. 1988 Mar;77(3):589-606.
+#+end_reference
+#+BEGIN_NOTES
+Muscle bundles separated by fibrous tissue produce slow conduction and fractionated EGMs
+#+END_NOTES
+
+** Substrate
+   [[file:images/vt_substrate.jpg]]
+
+
+* Mapping strategies
+
+** VT localization from ECG
+   [[file:images/localization.png]]
+#+begin_reference
+ Josephson and Callens. Using the 12 lead ECG to  localize the site of origin of VT. Heart Rhythm 2005;2:443
+#+end_reference
+
+** Pace mapping
+#+ATTR_HTML: :width 700px
+   [[file:images/pace_map.jpg]]
+   - Focal / exit of reentry
+
+** Pace mapping in reentry
+   [[file:images/pacemap_reentry.png]]
+#+begin_reference
+from stevenson
+#+end_reference
+
+** Activation mapping 
+#+ATTR_HTML: :width 600px
+   [[file:images/carto_reentry_b.jpg]]
+
+
+** Entrainment mapping
+   - Identifying entrainment
+   - Identifying location in circuit
+
+** Entrainment - Constant fusion
+   [[file:images/constant_fusion_a.png]]
+
+** Entrainment - Progressive fusion
+   [[file:images/constant_fusion_b.png]]
+
+** Entrainment - Concealed fusion
+#+ATTR_HTML: :width 800px
+   [[file:images/good_entrainment_b.png]]
+
+** Entrainment - Isthmus
+#+ATTR_HTML: :width 800px
+   [[file:images/good_entrainment_a.png]]
+
+** Substrate  - LAVA
+   - Low voltage
+   - Fractionated
+   - Late potentials
+   - Latency
+
+** Substrate - Low voltage
+   - <1.5 mV = abnormal voltage
+   - <0.5 mV = scar
+#+begin_reference
+Marchlinski FE, Callans DJ, Gottlieb CD, Zado E. Linear ablation lesions for control of unmappable ventricular tachycardia in patients with ischemic and nonischemic cardiomyopathy. Circulation. 2000 Mar 21;101(11):1288-96
+#+end_reference
+#+BEGIN_NOTES
+Using the carto system, in a group of normals, 95% of sites had voltages more than 1.44 and 1.55mV in RV and LV respectively
+#+END_NOTES
+
+** Substrate mapping
+   [[file:images/substrate.jpg]]
+
+** Substrate in sinus rhythm correlates with critical isthmus in reentry
+   [[file:images/VT_activation.jpg]]
+
+
+# ** Substrate - Low voltage
+
+# Marchlinski Circ 2000;101:1288; Reddy JACC 2003;41:2228
+
+# Dickfeld et al Circ AEP 2011;4:172; Wijnmaalen et al Eur Heart J 2011; 32:104;
+# Codreau et al JACC 2008;52:839–42; Gupta et al JACC CV Imaging 2012 ;5(2):207
+
+# ** Substrate - Pace map for exits
+# Marchlinski 2000, Reddy 2003, Kottkamp 2003, Bruckhorst 2004
+# ** Substrate - identify channels
+
+# ** LAVA related to reentry
+
+# Harada et al JACC 1997; 30:1015
+
+
+** Dynamic voltage range
+   [[file:images/dynamic_voltage.png]]
+#+begin_reference
+From Stevenson
+#+end_reference
+
+* Practical considerations
+
+** Pre -procedure
+   - Ventricle of origin
+   - Endocardial / epicardial
+   - Access - retrograde / transseptal?
+   - LV clot?
+
+** Choosing a strategy
+   - Focal / reentry
+   - Mappable / unmappable
+   - Clinical VT ablation / Substrate ablation
+
+** VT ablation
+   - Stable VT
+   - Somewhat unstable, with hemodynamic support
+   - Limited ablation at selected sites
+
+** Substrate ablation
+   - Multiple VTs
+   - Unstable VTs
+   - As primary strategy
+   - Local abnormal ventricular electrograms (LAVA)
+   - More extensive ablation
+
+** Approach
+   - Induce VT at baseline 
+     - Confirm diagnosis
+     - Document inducibility
+   - VT morphology
+     - Clinical VT
+     - Presumed clinical VT
+     - Undocumented VT
+
+** Approach (contd)
+   - Substrate mapping
+     - Sinus rhythm
+     - Pacing
+   - Map and ablate during VT
+   - Ablate during sinus / pacing
+   - Post ablation induce
+
+** Ablation
+   [[file:images/ablation.png]]
+
+* Evidence
+
+** VISTA trial
+   [[file:images/vista.png]]
+
+** VISTA trial
+   [[file:images/vista1.png]]
+
+** VISTA trial
+   [[file:images/vista2.png]]
+
+** AAD vs ablation
+   [[file:images/escalated_front.png]]
+
+** AAD vs ablation
+#+ATTR_HTML: :width 700px
+   [[file:images/escalated_result.png]]
+
+** SMASH-VT
+   - ICD patients
+     - Secondary prevention
+     - Primary prevention with subsequent event
+     - Substrate based ablation vs no ablation
+#+begin_reference
+Reddy VY, Reynolds MR, Neuzil P, et al. Prophylactic Catheter Ablation for the Prevention of Defibrillator Therapy. The New England journal of medicine. 2007;357(26):2657-2665. doi:10.1056/NEJMoa065457.
+#+end_reference
+
+** SMASH-VT
+   [[file:images/smash_vt.jpg]]
+
+
+* Outcomes
+
+** Ablation success
+   - Restoration of sinus rhythm in incessant VT
+   - Elimination of inducible clinical / presumed clinical VT
+   - Complete elimination of inducible VTs ? - Controversial
+#+begin_reference
+EHRA/HRS Expert Consensus on Catheter Ablation of Ventricular Arrhythmias Heart Rhythm. 2009 Jun;6(6):886-933
+#+end_reference
+
+** Outcomes
+#+ATTR_HTML: :width 700px
+   [[file:images/muthumani.jpg]]
+
+
+

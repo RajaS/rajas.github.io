@@ -1,0 +1,166 @@
+#+Title: Brady Arrhythmias
+#+Author: Raja Selvaraj
+#+Email: Additional Professor, Cardiology
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:nil reveal_rolling_links:t reveal_keyboard:t reveal_overview:nil num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil timestamp:nil
+# #+OPTIONS: reveal_single_file:t
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: fade
+#+REVEAL_THEME: moon
+#+REVEAL_HLEVEL: 2
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Org-Reveal Introduction.">
+#+REVEAL_PLUGINS: (highlight markdown notes)
+#+REVEAL_EXTRA_CSS: ./local.css
+
+* Organization of this talk
+  - Normal rhythm
+  - Bradyarrhythmias - Introduction
+  - Case illustrations
+  - Management - interspersed
+
+* Normal rhythm
+  - Origin
+  - Rate 
+  - AV conduction
+
+* Normal rhythm
+  [[./images/conduction_system_normal.jpg]]
+
+* Arrhythmias 
+  - Not a normal rhythm
+  - Bradyarrhythmia
+  - Tachyarrhythmia
+
+* Bradyarrhythmias
+  - Abnormal rhythm with a slow heart rate (<60 bpm in adults)
+  - Sinus node disease (too few P waves)
+  - Atrioventricular block (too few QRS, P > QRS)
+
+* Sinus node disease 
+  [[./images/sa_junction.png]]
+
+* Sinus node disease 
+  - Sinus arrest
+  - Sinus bradycardia
+  - Sino-atrial block
+    - Second degree type I
+    - Second degree type II
+
+* Atrioventricular block
+#+ATTR_REVEAL: :frag (roll-in)
+  First degree
+#+ATTR_REVEAL: :frag (roll-in)
+  Second degree type I
+#+ATTR_REVEAL: :frag (roll-in)
+  Second degree type II
+#+ATTR_REVEAL: :frag (roll-in)
+  Third degree
+
+* 30 year old male - ECG done for pre-employment check up
+  [[./images/normal_sinus.jpg]]
+
+* P wave axis
+  [[./images/normal_p_axis.jpg]]
+
+* 60 year old female, complains of presyncopal episodes
+ # Sinus bradycardia
+    [[./images/sinus_bradycardia.jpg]]
+
+* Bradycardia - symptoms
+    - Giddiness
+    - Syncope
+    - Fatigue
+    - Breathlessness
+    - Death
+
+* Young male, asymptomatic 
+# *   Sinoatrial block
+    [[./images/sablock.jpg]]
+
+*  Management of sinus bradycardia
+    - Rule out underlying cause
+    - Drugs ?
+    - Physiological ?
+    - Symptoms
+    - Pacemaker implantation
+
+* Drugs
+    - Atropine
+    - Isoprenaline
+    - Orciprenaline
+    - Long acting theophylline
+
+* 55 year old male, asymptomatic, referred for abnormal ECG 
+ # First degree AV block
+    [[./images/first_degree_av_block.jpg]]
+  
+* AV Conduction block - degrees
+  - First: All P waves conducted
+  - Second: Some P waves conducted
+  - Third: No P waves conducted
+
+* Young male, found to have irregular pulse 
+ # Second degree type I AV block
+    [[./images/second_degree_type1_av_block.jpg]]
+
+
+* Second degree AV block - Mobitz types
+  - Type 1 - Progressive PR prolongation before block
+  - Type 2 - Fixed PR interval of conducted beats
+
+
+* RR interval in Wenckebach block
+  [[./images/second_degree_type1_av_block.jpg]]
+
+* SA wenckebach block
+#+ATTR_HTML: :width 800px
+  [[./images/second_degree_type1_sa_block.png]]
+
+*  Middle aged female wih syncope
+ # Second degree type II AV block
+    [[./images/second_degree_type2_block.png]]
+
+* Mobitz types - implications
+  - Type 1
+    - Block above His
+    - Usually benign
+  - Type 2
+    - Block at or below His
+    - Usually needs treatment
+
+* Atrioventricular conduction system
+  [[./images/av_conduction.gif]]
+
+*  70 year old male, fainted at home
+    [[./images/complete_av_block.png]]
+
+* AV block or sinus bradycardia
+  [[./images/infra_his_ECG.jpg]]
+
+* 56 yr old female, with one episode of syncope
+  [[./images/chb_torsades1.png]]
+
+* CHB - Life threatening condition
+  [[./images/chb_torsades2.png]]
+
+* Pacing - temporary
+  [[./images/tpi.jpg]]
+
+* Pacing - permanent
+  [[./images/ppi.jpg]]
+
+*  Pacing for CHB
+    [[./images/pacing_chb.jpg]]
+
+* Summary
+  - Abnormalities of rhythm are an important class of heart disorders
+  - Bradyarrhythmias - Slow rate
+  - Can be asymptomatic, affect daily life or even be life threatening in some patients
+  - Important to differentiate benign forms from malignant forms
+  - Repetitive exposure to ECGs, management of individual patients
+
