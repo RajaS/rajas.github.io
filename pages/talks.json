@@ -108,8 +108,11 @@ var data = {
 	 'links':[{'name':'Slides (pdf)', 'url':'/talks/2017/ihrs/laa_ap.pdf'}],
 	 'tags':[{'name':"Interventional EP"}, {'name':'Electrophysiologists'}]},
 	
-	
-
+	{'title':"Substrate mapping for Ventricular tachycardia", 'date':"16-02-2018", 'details':"ISECON, Baroda",
+	 'slide_thumbnail':"/images/talks_title_slides/substrate.png",
+	 'links':[{'name':'Slides', 'url':'/talks/2018/substrate_map_isecon/substrate_mapping.html'},
+		  {'name':'Slides with notes', 'url':'/talks/2018/substrate_map_isecon/substrate_mapping_with_notes.html'}],
+	 'tags':[{'name':"Interventional EP"}, {'name':'Electrophysiologists'}]},
 	
     ]
 };

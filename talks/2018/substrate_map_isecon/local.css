@@ -1,0 +1,41 @@
+.reveal h1 {
+    font-size: 2.7em;
+    text-transform: none;
+}
+
+.reveal h2 {
+    font-size: 1.8em;
+    line-height: 1;
+    text-transform: none;
+}
+
+.reveal h3 {
+    text-transform: none;
+}
+
+.reveal h4 {
+    font-size: 1.4em;
+    text-transform: none;
+}
+
+.reveal section img {
+    background: none;
+    border: none;
+}
+
+div.reference {
+    padding-top:20px;
+}
+
+.reference p{
+    color: grey;
+    font-size: 40%;
+    text-align: left;
+}
+
+.reference ol li {
+    color: grey;
+    font-size: 40%;
+    text-align: left;
+}
+
